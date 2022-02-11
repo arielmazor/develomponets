@@ -1,4 +1,6 @@
 import { combineReducers } from "redux";
-import profileReducer from "./profile.reducer";
+import profileReducer from "./profiles";
 
-export default combineReducers({profiles: profileReducer});
+const rootReducer = combineReducers({profileReducer});
+
+export default rootReducer;
