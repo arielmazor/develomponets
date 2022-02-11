@@ -2,6 +2,10 @@
 
 By [Ariel Mazor.](https://github.com/arielmazor)
 
+## Installation
+
+![carbon](https://user-images.githubusercontent.com/64742335/153596268-6d638f8d-67d4-477d-acf2-85fd0b105b81.png)
+
 ## Sturcture
 ├── App.jsx\
 ├── components\
