@@ -1,0 +1,37 @@
+.title,
+input {
+  font-family: "Rowdies", cursive;
+  font-weight: 300;
+  font-size: 20px;
+  color: #333;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  input {
+    outline: none;
+    padding: 10px;
+    background: transparent;
+    border-radius: 22px;
+    border: 1px solid #222;
+  }
+  .btn {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 0px #00000030;
+    font-family: "Rowdies", cursive;
+    font-weight: 100;
+    font-size: 14px;
+    color: #333;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      background: #333;
+      color: #f2f2f2;
+    }
+  }
+}
