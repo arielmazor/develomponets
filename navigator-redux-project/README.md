@@ -3,30 +3,31 @@
 By [Ariel Mazor.](https://github.com/arielmazor)
 
 ## Sturcture
-├── App.jsx
-├── components
-│   └── homeContext
-│       ├── homeContext.component.tsx
-│       └── _homeContext.scss
-├── declaration.d.ts
-├── _index.scss
-├── index.tsx
-├── interfaces
-│   ├── index.ts
-│   └── store.interface.ts
-├── Pages
-│   ├── _home.scss
-│   ├── Home.tsx
-│   └── profile.tsx
-└── store
-    ├── actions
-    │   ├── actions.types.ts
-    │   └── index.ts
-    ├── index.ts
-    └── reducers
-        ├── index.ts
-        └── profiles
+├── App.jsx\
+├── components\
+│   └── homeContext\
+│       ├── homeContext.component.tsx\
+│       └── _homeContext.scss\
+├── declaration.d.ts\
+├── _index.scss\
+├── index.tsx\
+├── interfaces\
+│   ├── index.ts\
+│   └── store.interface.ts\
+├── Pages\
+│   ├── _home.scss\
+│   ├── Home.tsx\
+│   └── profile.tsx\
+└── store\
+    ├── actions\
+    │   ├── actions.types.ts\
+    │   └── index.ts\
+    ├── index.ts\
+    └── reducers\
+        ├── index.ts\
+        └── profiles\
             └── index.ts
+            
 ## Available Scripts
 
 In the project directory, you can run:
