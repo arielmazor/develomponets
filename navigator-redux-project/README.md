@@ -1,12 +1,16 @@
 # React redux router typscript template
 
-By [Ariel Mazor.](https://github.com/arielmazor)
+## By [Ariel Mazor.](https://github.com/arielmazor)
 
-## Installation
+# Installation
 
-![carbon](https://user-images.githubusercontent.com/64742335/153596268-6d638f8d-67d4-477d-acf2-85fd0b105b81.png)
+```zsh
+git clone https://github.com/arielmazor/developments/blob/master/navigator-redux-project
+cd navigator-redux-project 
+yarn & yarn start
+```
 
-## Sturcture
+# Sturcture
 ├── App.jsx\
 ├── components\
 │   └── homeContext\
@@ -32,7 +36,7 @@ By [Ariel Mazor.](https://github.com/arielmazor)
         └── profiles\
             └── index.ts
             
-## Available Scripts
+# Available Scripts
 
 In the project directory, you can run:
 
