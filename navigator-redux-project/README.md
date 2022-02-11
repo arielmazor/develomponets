@@ -11,31 +11,10 @@ yarn & yarn start
 ```
 
 # Sturcture
-├── App.jsx\
-├── components\
-│   └── homeContext\
-│       ├── homeContext.component.tsx\
-│       └── _homeContext.scss\
-├── declaration.d.ts\
-├── _index.scss\
-├── index.tsx\
-├── interfaces\
-│   ├── index.ts\
-│   └── store.interface.ts\
-├── Pages\
-│   ├── _home.scss\
-│   ├── Home.tsx\
-│   └── profile.tsx\
-└── store\
-    ├── actions\
-    │   ├── actions.types.ts\
-    │   └── index.ts\
-    ├── index.ts\
-    └── reducers\
-        ├── index.ts\
-        └── profiles\
-            └── index.ts
-            
+
+![carbon (2)](https://user-images.githubusercontent.com/64742335/153598241-768b8d7d-d381-47b6-9250-c1001bee6b50.png)
+
+
 # Available Scripts
 
 In the project directory, you can run:
