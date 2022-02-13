@@ -1,1 +1,0 @@
-export const NEW_PROFILE = 'NEW_PROFILE';
