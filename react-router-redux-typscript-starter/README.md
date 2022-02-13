@@ -5,24 +5,14 @@
 # Installation
 
 ```zsh
-git clone https://github.com/arielmazor/developments/blob/master/navigator-redux-project
-<<<<<<< HEAD
-cd navigator-redux-project
-=======
-cd navigator-redux-project 
->>>>>>> 94eeac2ad0fcb63980f27a18e56e6d381507a6aa
-yarn & yarn start
+git clone https://github.com/arielmazor/react-router-redux-typscript-starter.git
+cd react-router-redux-typscript-starter
+npm install & npm start
 ```
 
 # Sturcture
 
 ![carbon (2)](https://user-images.githubusercontent.com/64742335/153598241-768b8d7d-d381-47b6-9250-c1001bee6b50.png)
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 94eeac2ad0fcb63980f27a18e56e6d381507a6aa
-# Available Scripts
 
 In the project directory, you can run:
 
