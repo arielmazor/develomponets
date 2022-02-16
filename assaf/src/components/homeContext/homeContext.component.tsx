@@ -27,15 +27,15 @@ const HomeContext = () => {
   const HandleSearchClick = (name: string) =>{
     let profile: IProfile | undefined = profiles.find(item => item.name == name);
 
-    if(profile === undefined){
-      dispatch(Actions.NEW_PROFILE(CreateNewProfile(name)));
-      profile = profiles.find(item => item.name == name);
-    };
-
-    profile && navigate(`../profile/${profile.id}`);
+    if(!profile){
+      debugger;
+      // dispatch(Actions.NEW_PROFILE(CreateNewProfile(name)))
+    }else{
+      navigate(`../profile/${profile.id}`);
+    }
   }
 
-  const CreateNewProfile = (name: string) =>{
+  const CreateNewProfile = (name: string): IProfile =>{
     return {
       name, id: getLastId() + 1
     }

@@ -1,14 +1,24 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {useParams , useNavigate} from 'react-router-dom';
+import { useSelector } from 'react-redux';
+import { useParams } from 'react-router-dom';
+import { IState } from '../store';
+import { IProfile } from '../store/reducers/profiles/types';
+import * as ProfileService from '../services/profile.service.provider';
 
-function About() {
-  let { profileId } = useParams();
+const Profile = () =>  {
+  const { profileName } = useParams();
+  const profiles: IProfile[] = useSelector((state: IState) => state.profiles)
+  const profile: IProfile = ProfileService.getProfile(profileName);
 
   return ( 
-  <div>{ profileId }</div>
+    <React.Fragment>
+      <div className="wrapper">
+        <div className="name">{profile.name}</div>
+      </div>
+    </React.Fragment>
    );
 }
 
-export default About;
+export default Profile;

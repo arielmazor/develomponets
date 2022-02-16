@@ -2,9 +2,14 @@ export enum eActionsTypes{
   NEW_PROFILE = "1",
 };
 
+export interface IActionProfileObj{
+  id: number,
+  name: string
+}
+
 export interface IActionProfile {
   type:  string,
-  obj: IProfile
+  obj: IActionProfileObj
 };
 
 
