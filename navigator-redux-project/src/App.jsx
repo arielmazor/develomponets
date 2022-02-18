@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import { Provider } from "react-redux";
 import myStore from './store';
-const HomeComponent = React.lazy(() => import('./Pages/Home'));
-const Profile = React.lazy(() => import("./Pages/profile"));
+const HomeComponent = React.lazy(() => import('./Pages/Home/Home.page'));
+const Profile = React.lazy(() => import("./Pages/Profiles/Profile.page"));
 
 
 function App() {
