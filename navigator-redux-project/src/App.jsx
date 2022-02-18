@@ -1,15 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import { Provider } from "react-redux";
-import myStore from './store';
-const HomeComponent = React.lazy(() => import('./Pages/Home/Home.page'));
-const Profile = React.lazy(() => import("./Pages/Profiles/Profile.page"));
+import { Provider as StoreProvider } from "react-redux";
+import myStore from 'store';
+const HomeComponent = React.lazy(() => import('Pages/Home/Home.page'));
+const Profile = React.lazy(() => import("Pages/Profiles/Profile.page"));
 
 
 function App() {
   return (
-    <Provider store={myStore}>
+    <StoreProvider store={myStore}>
       <Router>
         <Routes>
           <Route path="/" element={
@@ -29,9 +28,7 @@ function App() {
           } />
         </Routes>
       </Router> 
-    </Provider> 
+    </StoreProvider> 
   )
 }
 export default App;
-
-

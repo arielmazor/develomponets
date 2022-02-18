@@ -1,5 +1,10 @@
 export const ActionsTypes = {
-  NEW_PROFILE: 'NEW_PROFILE',
+  NEW_USER: 'NEW_USER',
+};
+
+export interface IActionNewUser {
+  type:  string,
+  obj: IUser,
 };
 
 export interface IUser{

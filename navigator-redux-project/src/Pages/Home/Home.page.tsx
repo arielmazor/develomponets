@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './_home.scss'
-import HomeContext from '../../components/homeContext/homeContext.component';
-import { useSelector } from 'react-redux';
-
+import List from 'components/List/List.component';
+import StudentsProvider from 'Providers/Students/Students.provider'
+import Counter from 'components/Counter/Counter';
 const Home = () => {
   return ( 
-    <div className="home f-c">
-      <HomeContext />
-    </div>
+      <div className="home f-c">
+        <StudentsProvider>
+          <Counter />
+        </StudentsProvider>
+      </div>
   );
 }
 
