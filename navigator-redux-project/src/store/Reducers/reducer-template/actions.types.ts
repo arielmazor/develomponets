@@ -1,5 +1,5 @@
 export const ActionsTypes = {
-  INCREMENT: 'INCREMENT',
+  CHANGE_NAME: 'CHANGE_NAME',
   DECREMENT: 'DECREMENT',
   RESET: 'RESET'
 }

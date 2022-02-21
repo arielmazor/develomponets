@@ -1,7 +1,7 @@
 import { ActionsTypes } from './actions.types';
 
-export const increaseCount = () => {
-  return ({ type: ActionsTypes.INCREMENT, num:6 });
+export const changeName = () => {
+  return ({ type: ActionsTypes.CHANGE_NAME, payload: { name:"ariel"}});
 }
 
 export function decreaseCount() {

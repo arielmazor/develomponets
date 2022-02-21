@@ -1,6 +1,6 @@
 import { combineReducers } from "redux";
 import StudentsReducer from "./Students";
-import reducer from './Counter';
-import UsersReducer from './users';
+import StudentReducer from "./Student";
+import reducer from './Students';
 
-export default combineReducers({counter: reducer});
+export default combineReducers({students: StudentsReducer, student: StudentReducer});

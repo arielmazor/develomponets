@@ -15,17 +15,19 @@ const INITIAL_STATE: IStudent[] = [
   },
 ]
 
-function handleAddStudent(state: IStudent[], payload: IPayload): IStudent[] {
-  return [
-    ...state,
-    ...[payload.data]
-  ];
+function handleDeleteStudent(state: IStudent[], payload: IPayload): IStudent[] {
+  const filteredItems = state.filter((student: IStudent) => {
+    return student.id !== payload.id
+  });
+
+  return [...filteredItems];
 }
 
 export default function studentsReducer(state: IStudent[] = INITIAL_STATE, action: IStudentAction): IStudent[] {
   switch(action.type) {
-    case ActionsTypes.ADD_STUDENT:
-      return handleAddStudent(state, action.payload);
+    case ActionsTypes.DELETE:
+      debugger;
+      return handleDeleteStudent(state, action.payload);
     default:
       return state;
   }
