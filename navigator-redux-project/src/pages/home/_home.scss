@@ -1,0 +1,19 @@
+.home {
+  box-shadow: 0px 0px 20px 0px #00000030;
+  padding: 100px;
+  flex-direction: column;
+  width: 700px;
+  height: 326px;
+  position: relative;
+  .add-btn {
+    height: 45px;
+    width: 45px;
+    border-radius: 13px;
+    background: #21559e;
+    color: #ddd;
+    font-size: 29px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-left: calc(100% - 50px);
+  }
+}

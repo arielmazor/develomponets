@@ -1,6 +1,6 @@
 import { createStore } from 'redux';
-import reducer from './Reducers';
-import { IStudent } from './Reducers/Students/types';
+import reducer from './reducers/combinedReducer';
+import { IStudent } from './reducers/students/students.types';
 
 export interface IState {
   students: IStudent[],

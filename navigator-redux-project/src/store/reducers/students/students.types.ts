@@ -1,9 +1,12 @@
 export const ActionsTypes = {
-  DELETE: 'DELETE',
+  ADD_STUDENT: 'ADD_STUDENT',
+  DELETE_STUDENT: 'DELETE_STUDENT',
+  INIT_DATA: 'INIT_DATA'
 }
 
 export interface IStudent {
   name: string,
+  desc: string,
   id: number,
 }
 
@@ -13,5 +16,7 @@ export interface IStudentAction {
 }
 
 export interface IPayload {
-  id: number,
+  data?: IStudent,
+  id?: number,
+  students?: IStudent[]
 }

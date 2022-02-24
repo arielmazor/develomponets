@@ -2,16 +2,16 @@
   "name": "navigator-redux-project",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3000",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
-    "@types/classnames": "^2.3.1",
     "@types/jest": "^27.4.0",
     "@types/node": "^16.11.24",
     "@types/react": "^17.0.39",
     "@types/react-dom": "^17.0.11",
-    "classnames": "^2.3.1",
+    "fetch": "^1.1.0",
     "node-sass": "^7.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -47,7 +47,6 @@
     ]
   },
   "devDependencies": {
-    "redux-devtools-extension": "^2.13.9",
-    "typescript-plugin-css-modules": "^3.4.0"
+    "redux-devtools-extension": "^2.13.9"
   }
 }
