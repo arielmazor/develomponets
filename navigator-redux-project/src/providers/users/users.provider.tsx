@@ -1,5 +1,5 @@
-import StudentsContext from './students.context';
-import { IPropsChildren } from 'common/types';
+import usersContext from './users.context';
+import { IPropsChildren } from 'shared/interfaces/types';
 
 function ProfileProvider({ children }: IPropsChildren) {
   
@@ -15,9 +15,9 @@ function ProfileProvider({ children }: IPropsChildren) {
 
 
   return (
-    <StudentsContext.Provider value={{fetchData}}>
+    <usersContext.Provider value={{fetchData}}>
       {children}  
-    </StudentsContext.Provider>
+    </usersContext.Provider>
   )
 }
 

@@ -1,9 +1,9 @@
 import { createStore } from 'redux';
-import reducer from './reducers/combinedReducer';
-import { IStudent } from './reducers/students/students.types';
+import reducer from './combinedReducer';
+import { IUser } from './users-reducer/users.types';
 
 export interface IState {
-  students: IStudent[],
+  users: IUser[],
 };
 
 const store = createStore(reducer);

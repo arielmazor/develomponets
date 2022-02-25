@@ -1,14 +1,14 @@
 import { useContext } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { addStudent, initData } from 'store/reducers/students/students.actions';
+import { addUser, initData } from 'store/users-reducer/users.actions';
 import { IState } from 'store/store';
-import { IStudent } from 'store/reducers/students/students.types';
+import { IUser } from 'store/users-reducer/users.types';
 import ListItem from '../listItem/listItem.component'
 import { useEffect, useState } from 'react';
-import StudentsContext from 'providers/students/students.context';
-import Loading from 'common/loading/loading';
-import Viewer from 'common/viewer/viewer';
+import usersContext from 'providers/users/users.context';
+import Loading from 'shared/components/loading/loading';
+import Viewer from '../viewer/viewer';
 import './_list.scss';
 
 interface IViewerOpt {
@@ -17,9 +17,9 @@ interface IViewerOpt {
 }
 
 const List = (props: any) => {
-  const studentsProvider = useContext(StudentsContext);  
+  const usersProvider = useContext(usersContext);  
   const [isLoading, setIsLoading] = useState(true);
-  const [viewerOpt, setViewerOpt] = useState({id:-1, show:false});
+  const [viewerOpt, setViewerOpt] = useState({id:-1, show: false});
 
   useEffect(()=> {
     fetchingListData()
@@ -31,7 +31,7 @@ const List = (props: any) => {
   //-------------------------
 
   async function fetchingListData(){
-    const fetchRes = await studentsProvider.fetchData();
+    const fetchRes = await usersProvider.fetchData();
     const data = await fetchRes.json();
     props.initData(data);
     setIsLoading(false);
@@ -43,14 +43,14 @@ const List = (props: any) => {
       <div><Loading /></div>
       ) : (
         <div>
-          <h1> Students </h1>
+          <h1> users </h1>
           <div className="list">
-            {props.students.map((student: IStudent) => {
-            return <ListItem setViewerOpt={setViewerOpt} key={student.id} id={student.id} />
+            {props.users.map((users: IUser) => {
+            return <ListItem setViewerOpt={setViewerOpt} key={users.id} id={users.id} />
             })}
           </div>
           <div className="f-c add-btn"onClick={props.handleIncrease}>+</div>
-          {viewerOpt.show && <Viewer id={viewerOpt.id} />}
+          {viewerOpt.show && <Viewer setViewerOpt={setViewerOpt} id={viewerOpt.id} />}
         </div>
       )}
     </div>
@@ -59,13 +59,13 @@ const List = (props: any) => {
 
 function mapStateToProps(state: IState) {
   return {
-    students: state.students,
+    users: state.users,
   }
 }
 
 function mapDispatchToProps(dispatch: any) {
   return bindActionCreators({
-    handleIncrease: addStudent,
+    handleIncrease: addUser,
     initData: initData,
   }, dispatch)
 }

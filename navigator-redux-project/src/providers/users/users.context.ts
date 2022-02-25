@@ -1,15 +1,15 @@
 import {createContext} from 'react';
 
-interface IStudentContext {
+interface IUserContext {
   fetchData: () => Promise<any> | null,
 }
 
-const contextDefaultValue: IStudentContext = { 
+const contextDefaultValue: IUserContext = { 
   fetchData: () => {
     return null;
   },
 };
 
-const context = createContext<IStudentContext>(contextDefaultValue);
+const context = createContext<IUserContext>(contextDefaultValue);
 
 export default context;

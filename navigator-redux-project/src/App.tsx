@@ -1,28 +1,29 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import { Suspense, lazy } from 'react';
+import { useRoutes, BrowserRouter as Router} from 'react-router-dom';
 import { Provider as StoreProvider } from "react-redux";
 import myStore from 'store/store';
-import StudentsProivder from 'providers/students/students.proivder';
-import Loading from 'common/loading/loading';
-const HomeComponent = React.lazy(() => import('pages/home/home.page'));
+import UsersProivder from 'providers/users/users.provider';
+import Loading from 'shared/components/loading/loading';
+const AppComponent = lazy(() => import('components/app/app.component'));
 
 function App() {
   return (
     <div className="app-container f-c">
       <StoreProvider store={myStore}>
         <Router>
-          <Routes>
-            <Route path="/" element={
-              <React.Suspense fallback={<Loading />}>
-              <StudentsProivder>
-              <HomeComponent />
-              </StudentsProivder>  
-              </React.Suspense>
-            } />
-          </Routes>
+          <Suspense fallback={<>...</>}>
+            <Routes />
+          </Suspense>
         </Router> 
       </StoreProvider>
     </div>
   )
 }
+
+const Routes = () => useRoutes([
+  { path: "/", element: <AppComponent /> },
+  { path: "/home", element: <AppComponent /> },
+  { path: "/users", element: <AppComponent /> },
+]);
+
 export default App;
