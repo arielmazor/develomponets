@@ -1,10 +1,11 @@
-import { ActionsTypes, Iuser, IUser } from './users.types';
+import { ActionsTypes, IUser } from './users.types';
 
 function randomId(min: number, max: number){
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
 export function addUser() {
+  
   return ({
     type: ActionsTypes.ADD_USER,
     payload:{
@@ -16,7 +17,7 @@ export function addUser() {
   });
 };
 
-export function editUser(user: Iuser){
+export function editUser(user: IUser){
     return({
       type: ActionsTypes.EDIT_USER,
       payload:{ user }
@@ -31,6 +32,7 @@ export function deleteusers(id: number) {
 };
 
 export function initData(users: IUser[]) {
+  
   return ({ 
     type: ActionsTypes.INIT_DATA,
     payload:{ users } 

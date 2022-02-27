@@ -1,0 +1,17 @@
+.menubar {
+  height: 100%;
+  padding-top: 50px;
+  box-sizing: border-box;
+  width: 150px;
+  border-right: 1px solid #d1d1d1;
+  .links {
+    border-top: 1px solid #d1d1d1;
+    height: 100px;
+    cursor: pointer;
+    font-size: 23px;
+    color: #333;
+    &:last-child {
+      border-bottom: 1px solid #d1d1d1;
+    }
+  }
+}

@@ -1,4 +1,23 @@
-.list {
-  height: 210px;
-  overflow: auto;
+.list-container {
+  .list {
+    height: 210px;
+    overflow: auto;
+    border: 1px solid #d1d1d1;
+    padding: 30px;
+    padding-bottom: 0px;
+  }
+  .add-btn {
+    height: 30px;
+    width: 70px;
+    border-radius: 8px;
+    background: #4788f1;
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
 }

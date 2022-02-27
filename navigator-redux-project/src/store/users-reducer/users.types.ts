@@ -8,13 +8,7 @@ export enum ActionsTypes {
 export interface IUser {
   name: string,
   desc: string,
-  id: number,
-}
-
-export interface Iuser {
-  name: string,
-  email: string,
-  id: number,
+  id: string,
 }
 
 //------------------
@@ -22,11 +16,11 @@ export interface Iuser {
 //------------------
 
 export interface IPayloadEdit {
-  user: Iuser
+  user: IUser
 }
 
 export interface IPayloadDelete {
-  id: number,
+  id: string,
 }
 
 export interface IPayloadInit {

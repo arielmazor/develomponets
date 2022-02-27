@@ -1,14 +1,11 @@
-import React from 'react';
-import { ActionsTypes, Iuser, IUser, IUserAction} from './users.types'
+import { ActionsTypes, IUser, IUserAction} from './users.types'
 
 export default function usersReducer(state: IUser[] = [], action: IUserAction): IUser[] {
   switch(action.type) {
-
     case ActionsTypes.INIT_DATA:
-      return setInitData(action.payload.users);  //uses
-    
+      return setInitData(action.payload.users);
     case ActionsTypes.ADD_USER:
-      return addUser(state, action.payload.data);  //user
+      return [action.payload.data]//addUser(state, action.payload.data);  //user
 
     case ActionsTypes.DELETE_USER:
       return deleteusers(state, action.payload.id);
@@ -26,6 +23,7 @@ export default function usersReducer(state: IUser[] = [], action: IUserAction): 
 //------------------
 
 function setInitData(users: IUser[]): IUser[] {
+  
   return users;
 }
 
@@ -44,7 +42,7 @@ function addUser(state: IUser[], data: IUser): IUser[] {
 //Delete users
 //------------------
 
-function deleteusers(users: IUser[], id: number): IUser[] {
+function deleteusers(users: IUser[], id: string): IUser[] {
   return updateusersList(users, id, null);
 }
 
@@ -52,7 +50,7 @@ function deleteusers(users: IUser[], id: number): IUser[] {
 //Edit User
 //-----------------------------
 
-function editUser(users: IUser[],user: Iuser): IUser[] {  
+function editUser(users: IUser[],user: IUser): IUser[] {  
   return updateusersList(users, user.id, user);
 }
 
@@ -60,8 +58,8 @@ function editUser(users: IUser[],user: Iuser): IUser[] {
 // privates
 //-----------------------------
 
-function updateusersList(users: IUser[], id: number, user: Iuser | null){
-  debugger;
+function updateusersList(users: IUser[], id: string, user: IUser | null){
+  
   let index = getusersIndex(users, id);
   if(user){
     setUser(users[index], user)
@@ -77,15 +75,15 @@ function updateusersList(users: IUser[], id: number, user: Iuser | null){
 
 //----------------------------
 
-function setUser(users: IUser, user: Iuser): IUser{
+function setUser(users: IUser, user: IUser): IUser{
   users.name = user.name;
-  users.desc = user.email;
+  users.desc = user.desc;
   return users;
 }
 
 //----------------------------
 
-function getusersIndex(users: IUser[], id: number): number{
+function getusersIndex(users: IUser[], id: string): number{
   let index = users.findIndex(users => users.id === id);
   return index;
 }
