@@ -1,4 +1,5 @@
 import { useContext, useEffect, useState } from 'react';
+import Loading from 'shared/components/loading/loading';
 import { addUser } from 'store/users-reducer/users.actions';
 import { IState } from 'store/store';
 import { IUser } from 'store/users-reducer/users.types';
@@ -6,14 +7,10 @@ import ListItem from '../users-list-item/users-list-item';
 import usersContext from 'providers/users/users.context';
 import './_users-list.scss';
 
-interface IViewerOpt {
-  id: number,
-  show: boolean,
-}
-
 export default function List(props: any) {
   const usersProvider = useContext(usersContext);
-  const [ users, setUsers ] = useState(usersProvider.users);
+  const [isLoading, setIsLoading] = useState(true);
+
   useEffect(()=> {
     fetchingListData()
       .catch(err => console.error(err));
@@ -25,9 +22,11 @@ export default function List(props: any) {
 
   async function fetchingListData(){
     await usersProvider.fetchData();
-    usersProvider.isLoading = false;
+    setIsLoading(false);
   };  
   return (
+    <>
+    { isLoading && (<Loading />)}
     <div className="list-container"> 
       <div>
       <h1> users </h1>
@@ -39,5 +38,6 @@ export default function List(props: any) {
       <div className="f-c add-btn"onClick={props.handleIncrease}>Add</div>
       </div>
     </div>
+    </>
   )
 };

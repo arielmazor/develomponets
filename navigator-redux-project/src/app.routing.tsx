@@ -44,7 +44,7 @@ const AppRoutes = () =>
         },
       ],
     },
-    { path: "/home", element: <Navigate to="/" /> },
+    { path: "/home", element: <UserComponent /> },
   ]);
 
 

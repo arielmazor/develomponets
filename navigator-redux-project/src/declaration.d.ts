@@ -10,3 +10,5 @@ declare global {
 }
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+
+declare function useOutletContext<Context = unknown>(): Context;

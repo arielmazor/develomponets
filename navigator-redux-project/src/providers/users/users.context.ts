@@ -7,12 +7,11 @@ interface IUserContext {
   handleDelete: (id: string) => void,
   handleEdit: (user: IUser) => void,
   handleAdd: (user: IUser) => void,
-  getUser: (id: string) => IUser,
+  getUser: (id: string) => IUser | undefined,
   users: IUser[],
-  isLoading: boolean,
 }
 
-const defaultData: IUser = {"name": "ariel","desc": "ariel mazor123","id": "1"}
+// const defaultData: IUser = {"name": "ariel","desc": "ariel mazor123","id": "1"}
 
 const contextDefaultValue: IUserContext = { 
   fetchData: () => {
@@ -31,10 +30,9 @@ const contextDefaultValue: IUserContext = {
     return;
   },
   getUser: (id: string) => {
-    return defaultData;
+    return undefined;
   },
   users: [],
-  isLoading: true,
 };
 
 const context = createContext<IUserContext>(contextDefaultValue);
