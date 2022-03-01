@@ -1,59 +1,57 @@
 import { useState, useContext, useEffect } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
-import { connect } from "react-redux";
-import { bindActionCreators } from "redux";
-import { deleteusers, editUser } from "store/users-reducer/users.actions";
-import { IState } from "store/store";
-import { IUser } from "store/users-reducer/users.types";
-import Menubar from "components/menubar/menubar";
-import studentsContext from 'providers/users/users.context';
+import { connect } from 'react-redux';
+import { IStudent } from "store/students/students.types";
+import studentsContext from 'providers/students/students.context';
 import Loading from 'shared/components/loading/loading';
-import "./_user.scss";
+import { IState } from 'store/store';
+import "./_student-profile.scss";
 
-export default function UserProfile(props: any) {
+function UserProfile(props: any) {
   const navigate = useNavigate();
+  var { id }: any = useParams();
+  id = id ? id : "";
+  useEffect(() => {
+    const _student = props.getStudent(id);
+    if(!_student){
+      navigate("/");
+    }
+  },[id])
   const studentsProviders = useContext(studentsContext);
   const [isLoading, setIsLoading] = useState(true);
-  const user: IUser = getUser();
-  const [name, setName] = useState(user.name);
-  const [desc, setDesc] = useState(user.desc);
-  
-  let { id }: any = useParams();
-  id = id ? id : "";
+  const student: IStudent = getUser();
+  const [name, setName] = useState(student.name || "");
+  const [desc, setDesc] = useState(student.desc || "");
 
   useEffect(() => {
     setIsLoading(false);
-  }, [user])
+  }, [student])
+
 
   
   //-------------------------
-  //Get user data
+  //Get student data
   //-------------------------
   
-  function getUser(): any {
-    const _user = studentsProviders.getUser(id);
-    if(!_user){
-      navigate("/");
-    }else{
-      return _user;
-    }
+  function getUser(): any {  
+    return props.getStudent(id);
   };  
 
 
   function handleSaveBtnClick() {
-    let user = {
+    let student = {
       name,
       desc,
       id,
     };
-    studentsProviders.handleEdit(user);
+    
+    studentsProviders.updateStudent(student);
   }
 
   return (
     <>
     { isLoading ? (<Loading />) : (
-      <div className="user-wrapper">
-        <Menubar id={id} />
+      <div className="student-wrapper">
         <div key={id} className="viewer-container f-c">
           <div className="viewer-wrapper">
             <div className="wrap">
@@ -101,7 +99,7 @@ export default function UserProfile(props: any) {
             <Link
               to="/"
               className="delete-btn f-c"
-              onClick={() => studentsProviders.handleDelete(user.id)}
+              onClick={() => studentsProviders.deleteStudent(student.id)}
             >
               <svg
                 width="20"
@@ -120,3 +118,13 @@ export default function UserProfile(props: any) {
     </>
   );
 }
+
+function mapStateToProps(state: IState) {
+  return {
+    getStudent: (id: string): IStudent | undefined => {
+      return state.students.find((student: IStudent) => student.id === id);    
+   }
+  };
+}
+
+export default connect(mapStateToProps)(UserProfile);

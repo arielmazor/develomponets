@@ -1,50 +1,50 @@
 import { lazy } from 'react';
 import { useRoutes, Navigate } from 'react-router-dom';
-import UsersProivder from 'providers/users/users.provider';
-import AppComponent from './components/app/app.component';
-const UserComponent = lazy(() => import('./components/user-profile/user-profile'));
-const UsersListComponent = lazy(() => import('./components/users-list/users-list'));
-const UserProfile = lazy(() => import('./components/user-profile/user-profile'));
-
+import StudentsProivder from 'providers/students/students.provider';
+import App from './components/app/app.component';
+const StudentsList = lazy(() => import('./components/students-list/students-list'));
+const StudentProfile = lazy(() => import('./components/student-profile/student-profile'));
+const Student = lazy(() => import('./components/student/student'));
 const AppRoutes = () =>
   useRoutes([
     {
       path: "/",
-      element: <UsersProivder><AppComponent /></UsersProivder>,
+      element: <StudentsProivder><App /></StudentsProivder>,
       children: [
         {
           path: "/",
-          element: <UsersListComponent />
+          element: <StudentsList />
         },
         {
-          path: "/users",
-          element: <UsersListComponent />
+          path: "/students",
+          element: <StudentsList />
         },
         { 
-          path: "/users/:id",
-          element: <UserComponent />,
+          path: "/students/:id",
+          element: <Student />,
           children: [
             { 
-              path: "/users/:id/profile",
-              element: <UserProfile />
+              path: "/students/:id/profile",
+              element: <StudentProfile />
             },
             { 
-              path: "/users/:id/grades",
-              element: <UserProfile />
+              path: "/students/:id/grades",
+              element: <StudentProfile />
             },
             { 
-              path: "/users/:id/asgiments",
-              element: <UserProfile />
+              path: "/students/:id/asgiments",
+              element: <StudentProfile />
             },
             { 
-              path: "/users/:id/*",
-              element: <UserProfile />
+              path: "/students/:id/*",
+              element: <StudentProfile />
             },
           ]
         },
       ],
     },
-    { path: "/home", element: <UserComponent /> },
+    { path: "/home", element: <Navigate to="/" /> },
+    { path:"*", element: <Navigate to="/" />}
   ]);
 
 
