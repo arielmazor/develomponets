@@ -2,10 +2,12 @@ import { useState, useContext, useEffect } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { connect } from 'react-redux';
 import { IStudent } from "store/students/students.types";
-import studentsContext from 'providers/students/students.context';
+import { studentsContext } from 'providers/students.provider';
 import Loading from 'shared/components/loading/loading';
 import { IState } from 'store/store';
 import "./_student-profile.scss";
+import { addStudentAction, deleteStudentAction, initDataAction, updateStudentAction } from "store/students/students.actions";
+import { bindActionCreators } from "redux";
 
 function UserProfile(props: any) {
   const navigate = useNavigate();
@@ -45,14 +47,14 @@ function UserProfile(props: any) {
       id,
     };
     
-    studentsProviders.updateStudent(student);
+    props.updateStudent(student);
   }
 
   return (
     <>
     { isLoading ? (<Loading />) : (
       <div className="student-wrapper">
-        <div key={id} className="viewer-container f-c">
+        <div className="viewer-container f-c">
           <div className="viewer-wrapper">
             <div className="wrap">
               <div className="form">
@@ -99,7 +101,7 @@ function UserProfile(props: any) {
             <Link
               to="/"
               className="delete-btn f-c"
-              onClick={() => studentsProviders.deleteStudent(student.id)}
+              onClick={() => props.deleteStudent(student.id)}
             >
               <svg
                 width="20"
@@ -127,4 +129,14 @@ function mapStateToProps(state: IState) {
   };
 }
 
-export default connect(mapStateToProps)(UserProfile);
+function mapDispatchToProps(dispatch: any) {
+  return bindActionCreators(
+    {
+      deleteStudent: deleteStudentAction,
+      updateStudent: updateStudentAction,
+    },
+    dispatch
+  );
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(UserProfile);

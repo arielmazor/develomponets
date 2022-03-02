@@ -3,8 +3,8 @@ import { Outlet, useParams, useNavigate } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { IStudent } from 'store/students/students.types';
 import { IState } from 'store/store';
-import Menubar from "components/menubar/menubar";
-import studentsContext from 'providers/students/students.context';
+import Menubar from "components/menubar/menubar.component";
+import { studentsContext } from 'providers/students/students.provider';
 import "./_student.scss";
 
 export default function Student(props: any) {

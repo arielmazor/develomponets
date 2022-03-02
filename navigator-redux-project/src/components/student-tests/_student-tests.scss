@@ -1,0 +1,8 @@
+.list {
+  box-sizing: border-box;
+  padding-left: 55px;
+  flex-direction: column;
+  .list-item {
+    cursor: pointer;
+  }
+}

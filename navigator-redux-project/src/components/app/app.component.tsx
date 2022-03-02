@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import './_app.scss';
-import Navbar from '../navbar/navbar';
+import Navbar from '../navbar/navbar.component';
 
 export default function AppComponent() {
   return ( 

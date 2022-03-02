@@ -1,10 +1,14 @@
 import { lazy } from 'react';
 import { useRoutes, Navigate } from 'react-router-dom';
 import StudentsProivder from 'providers/students/students.provider';
+import StudentsTestsProvider from 'providers/students-tests.provider';
 import App from './components/app/app.component';
-const StudentsList = lazy(() => import('./components/students-list/students-list'));
-const StudentProfile = lazy(() => import('./components/student-profile/student-profile'));
-const Student = lazy(() => import('./components/student/student'));
+const StudentsList = lazy(() => import('./components/students-list/student-list.component'));
+const StudentProfile = lazy(() => import('./components/student-profile/student-profile.component'));
+const Student = lazy(() => import('./components/student/student.component'));
+const StudentTests = lazy(() => import('./components/student-tests/student-tests.component'));
+const TestViewer = lazy(() => import('./components/test-viewer/test.component'));
+
 const AppRoutes = () =>
   useRoutes([
     {
@@ -28,8 +32,14 @@ const AppRoutes = () =>
               element: <StudentProfile />
             },
             { 
-              path: "/students/:id/grades",
-              element: <StudentProfile />
+              path: "/students/:id/tests",
+              element: <StudentsTestsProvider><StudentTests /></StudentsTestsProvider>,
+              children: [
+                {
+                  path: "/students/:id/tests/:testId",
+                  element: <TestViewer />
+                }
+              ]
             },
             { 
               path: "/students/:id/asgiments",

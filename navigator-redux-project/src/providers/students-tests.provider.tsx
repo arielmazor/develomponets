@@ -3,12 +3,13 @@ import { bindActionCreators } from 'redux';
 import { connect, useSelector } from 'react-redux';
 import { IState } from 'store/store';
 import { IStudent } from 'store/students/students.types';
-import { initDataAction } from 'store/students/students.actions';
+import { initDataAction } from 'store/student-tests/student-tests.action';
 import { useState } from 'react';
+import { IStudentsTests } from 'store/student-tests/student-tests.types';
 
-export const studentsContext = createContext(null);
+export const studentsTestsContext = createContext(null);
 
-function StudentsProvider(props: any) {
+function StudentsTestsProvider(props: any) {
   const [isFetched, setIsFetched] = useState(false);
   const students = useSelector((state: IState) => state.students);
 
@@ -18,9 +19,9 @@ function StudentsProvider(props: any) {
 
   async function fetchData(): Promise<any> {
     if(!isFetched) {
-      const url: string = "https://api.jsonbin.io/b/6214f8d2ca70c44b6ea550c5/2";
+      const url: string = "https://api.jsonbin.io/b/621f136906182767436b3913/1";
       const fetchRes = await fetch(url);
-      const data: IStudent[] = await fetchRes.json();
+      const data: IStudentsTests = await fetchRes.json();
       setIsFetched(true);
       props.initData(data);
     };
@@ -37,12 +38,11 @@ function StudentsProvider(props: any) {
   }
   
   return (
-    <studentsContext.Provider value={{
-      fetchData: fetchData,
-      isStudentExist: isStudentExist,
+    <studentsTestsContext.Provider value={{
+      fetchData,
     }}>
       {props.children}  
-    </studentsContext.Provider>
+    </studentsTestsContext.Provider>
   )
 }
 
@@ -55,4 +55,4 @@ function mapDispatchToProps(dispatch: any) {
   );
 }
 
-export default connect(null, mapDispatchToProps)(StudentsProvider);
+export default connect(null, mapDispatchToProps)(StudentsTestsProvider);

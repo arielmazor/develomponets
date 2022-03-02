@@ -3,7 +3,7 @@ import { bindActionCreators } from 'redux';
 import { connect, useSelector } from 'react-redux';
 import { IState } from 'store/store';
 import { IStudent } from 'store/students/students.types';
-import { initDataAction } from 'store/students/students.actions';
+import { addStudentAction, deleteStudentAction, updateStudentAction, initDataAction } from 'store/students/students.actions';
 import { useState } from 'react';
 
 export const studentsContext = createContext(null);
