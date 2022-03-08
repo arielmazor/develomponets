@@ -1,0 +1,8 @@
+.tests-wrapper {
+  height: 100%;
+  width: 100%;
+  .list {
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+}

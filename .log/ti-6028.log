@@ -1,0 +1,19 @@
+[15:01:04.475] Global cache location '/home/ocean/.cache/typescript/4.6', safe file path '/usr/lib/node_modules/typescript/lib/typingSafeList.json', types map path /usr/lib/node_modules/typescript/lib/typesMap.json
+[15:01:04.476] Processing cache location '/home/ocean/.cache/typescript/4.6'
+[15:01:04.476] Trying to find '/home/ocean/.cache/typescript/4.6/package.json'...
+[15:01:04.477] Loaded content of '/home/ocean/.cache/typescript/4.6/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.582"}}
+[15:01:04.477] Loaded content of '/home/ocean/.cache/typescript/4.6/package-lock.json'
+[15:01:04.477] Finished processing cache location '/home/ocean/.cache/typescript/4.6'
+[15:01:04.477] Process id: 6035
+[15:01:04.477] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[15:01:04.477] validateDefaultNpmLocation: false
+[15:01:04.477] Npm config file: /home/ocean/.cache/typescript/4.6/package.json
+[15:01:04.478] Updating types-registry npm package...
+[15:01:04.478] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[15:01:05.966]     Succeeded. stdout:
+    
+    up to date, audited 2 packages in 1s
+
+found 0 vulnerabilities
+
+[15:01:05.967] Updated types-registry npm package

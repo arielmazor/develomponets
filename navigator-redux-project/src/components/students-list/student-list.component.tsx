@@ -1,10 +1,10 @@
 import { useContext, useEffect, useState } from 'react';
 import { connect } from 'react-redux';
 import { IState } from 'store/store';
-import Loading from 'shared/components/loading/loading';
+import Loading from 'shared/components/loading-main/loading';
 import { IStudent } from 'store/students/students.types';
 import ListItem from '../students-list-item/student-list-item.component';
-import { studentsContext } from 'providers/students/students.provider';
+import { studentsContext } from 'providers/students.provider';
 import './_students-list.scss';
 import { bindActionCreators } from 'redux';
 import { addStudentAction } from 'store/students/students.actions';
@@ -26,6 +26,13 @@ function List(props: any) {
     await studentsProvider.fetchData();
     setIsLoading(false);
   };  
+
+  function addStudent(){
+    studentsProvider.addStudent()
+      .then(() => console.log("great"))
+      .catch((err: any) => console.error(err))
+  } 
+
   return (
     <>
     { isLoading && (<Loading />)}
@@ -37,7 +44,7 @@ function List(props: any) {
         return <ListItem key={student.id} id={student.id} />
       })}
       </div>
-      <div className="f-c add-btn" onClick={() => props.addStudent}>Add</div>
+      <div className="f-c add-btn" onClick={() => addStudent()}>Add</div>
       </div>
     </div>
     </>
@@ -50,13 +57,4 @@ function mapStateToProps(state: IState) {
    }
 };
 
-function mapDispatchToProps(dispatch: any) {
-  return bindActionCreators(
-    {
-      addStudent: addStudentAction,
-    },
-    dispatch
-  );
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(List);
+export default connect(mapStateToProps)(List);

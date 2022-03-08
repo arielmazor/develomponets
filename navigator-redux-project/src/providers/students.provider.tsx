@@ -12,6 +12,10 @@ function StudentsProvider(props: any) {
   const [isFetched, setIsFetched] = useState(false);
   const students = useSelector((state: IState) => state.students);
 
+  function timeout(ms: number):Promise<any> {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
+
   //----------------------
   // FetchData
   //----------------------
@@ -29,6 +33,39 @@ function StudentsProvider(props: any) {
   }
   
   //----------------------
+  // Add student
+  //----------------------
+
+  async function addStudent(): Promise<any> {
+    props.addStudentDispatch(getLatestId());    
+    await timeout(1000);
+  }
+  
+  //----------------------
+  // get latest id
+  //----------------------
+
+  function getLatestId(): string{
+    let id = 0
+    students.forEach((student: IStudent) => {
+     if(parseInt(student.id) > id){
+       id = parseInt(student.id);
+      }
+    });
+    id++;
+    return id.toString();
+  }
+
+  //----------------------
+  // update student
+  //----------------------
+
+  async function updateStudent(student: IStudent){
+    await timeout(1000)
+    props.updateStudentDispatch(student);
+  }
+  
+  //----------------------
   // isStudentExist
   //----------------------
   
@@ -40,6 +77,8 @@ function StudentsProvider(props: any) {
     <studentsContext.Provider value={{
       fetchData: fetchData,
       isStudentExist: isStudentExist,
+      addStudent,
+      updateStudent
     }}>
       {props.children}  
     </studentsContext.Provider>
@@ -50,6 +89,8 @@ function mapDispatchToProps(dispatch: any) {
   return bindActionCreators(
     {
       initData: initDataAction,
+      addStudentDispatch: addStudentAction,
+      updateStudentDispatch: updateStudentAction
     },
     dispatch
   );

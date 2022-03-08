@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@students-list/*": ["./src/components/student/list"],
+      "@students/*": ["./src/components/student"],
+      "@svgs-assets": ["./src/shared/components/svgs"]
+    }
+  }
+}

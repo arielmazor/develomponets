@@ -1,0 +1,41 @@
+.loading-container {
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000;
+  .dot {
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    border-radius: 100%;
+    animation: bounce infinite 1s ease-in-out;
+    margin-left: 10px;
+    &.dot2 {
+      animation-delay: 0.25s;
+    }
+    &.dot3 {
+      animation-delay: 0.5s;
+    }
+  }
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+
+  25% {
+    transform: translateY(13px);
+  }
+
+  75% {
+    transform: translateY(-13px);
+  }
+
+  to {
+    transform: translateY(0px);
+  }
+}

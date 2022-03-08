@@ -1,6 +1,6 @@
 import { lazy } from 'react';
 import { useRoutes, Navigate } from 'react-router-dom';
-import StudentsProivder from 'providers/students/students.provider';
+import StudentsProivder from 'providers/students.provider';
 import StudentsTestsProvider from 'providers/students-tests.provider';
 import App from './components/app/app.component';
 const StudentsList = lazy(() => import('./components/students-list/student-list.component'));

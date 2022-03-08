@@ -12,12 +12,12 @@ function StudentTests(props: any) {
   const studentsTestProviders = useContext(studentsTestsContext);
   const [isLoading, setIsLoading] = useState(true);
   
-  const { id }: any = useParams() || "";
-  const tests: ITest[] = props.getStudentTests(id);
+  const params = useParams<'id'>();
+  const tests: ITest[] = props.getStudentTests(params.id);
 
   useEffect(() => {
     (async () => {
-      await studentsTestProviders.fetchData();
+      await studentsTestProviders.fetchData(params.id);
       setIsLoading(false);
     })();
   },[])
@@ -33,7 +33,7 @@ function StudentTests(props: any) {
           </Link>
           <div className="list f-c">
           {tests.map((test: ITest, index) => {
-            return <div onClick={() => navigate(`/students/${id}/tests/${test.id}`)} className="list-item" key={index}>{test.name}</div>
+            return <div onClick={() => navigate(`/students/${params.id}/tests/${test.id}`)} className="list-item" key={index}>{test.name}</div>
           })}
           </div>
           <Outlet />

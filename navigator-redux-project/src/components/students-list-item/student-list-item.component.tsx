@@ -1,16 +1,16 @@
 import { useContext, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { studentsContext } from 'providers/students/students.provider';
+import { studentsContext } from 'providers/students.provider';
 import { connect } from 'react-redux';
 import { IState } from 'store/store';
 import { IStudent } from 'store/students/students.types'
 import './_students-list-item.scss';
 import { deleteStudentAction } from 'store/students/students.actions';
 import { bindActionCreators } from 'redux';
+import TrashSvg from 'shared/components/svgs/trash.svg';
 
 function ListItem(props: any) { 
   const navigate = useNavigate();
-  const studentsProvider = useContext(studentsContext);
   const [student, setStudent] = useState(props.getStudent(props.id));
 
   return (
@@ -20,7 +20,7 @@ function ListItem(props: any) {
         <div>{student && student.desc}</div>
       </div>      
       <div className="delete-btn f-c"onClick={() => props.deleteStudent(props.id)}>
-      <svg width="20" height="20" viewBox="0 0 24 24" className="NSy2Hd cdByRd RTiFqe undefined"><path d="M15 4V3H9v1H4v2h1v13c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V6h1V4h-5zm2 15H7V6h10v13z"></path><path d="M9 8h2v9H9zm4 0h2v9h-2z"></path></svg>
+        <TrashSvg />      
       </div>
       <div onClick={() => navigate(`/students/${props.id}/profile`)} className="popper"></div>
   </div>
@@ -29,7 +29,7 @@ function ListItem(props: any) {
 
 function mapStateToProps(state: IState) {
   return {
-    getStudent: (id: string): IStudent | undefined => {
+    getStudent: (id: string): IStudent => {
       return state.students.find((student: IStudent) => student.id === id);    
    }
   };

@@ -1,0 +1,120 @@
+$head: 40px;
+$bottom: 80px;
+
+.home {
+  flex-direction: column;
+  width: 100%;
+  height: calc(100% - #{$head} - #{$bottom});
+  position: relative;
+  flex-direction: column;
+  .wrap {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    .outlet {
+      height: 100%;
+      width: 100%;
+      flex-direction: column;
+    }
+  }
+}
+
+.phone-wrapper {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  max-width: 605px;
+  max-height: 1222px;
+  position: relative;
+  border-right: 1px solid #191919;
+  border-left: 1px solid #191919;
+  .head-phone {
+    height: $head;
+    width: 100%;
+    .left-side {
+      flex: 1;
+    }
+    .notch {
+      height: 100%;
+      width: auto;
+      display: flex;
+      .main {
+        background: #191919;
+        height: 100%;
+        width: 150px;
+      }
+      .left {
+        height: 100%;
+        width: 40px;
+        background: #191919;
+        border-radius: 0 0 0 87%;
+      }
+      .right {
+        height: 100%;
+        width: 40px;
+        background: #191919;
+        border-radius: 0 0 87% 0;
+      }
+    }
+    .right-side {
+      flex: 1;
+      height: 100%;
+      .batery {
+        img {
+          height: auto;
+          width: 36px;
+          position: absolute;
+          right: 14px;
+        }
+      }
+    }
+  }
+  .bottom-phone {
+    height: $bottom;
+    width: 100%;
+    background: #191919;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: 1000;
+    .three-lines {
+      height: 30px;
+      overflow: hidden;
+      display: flex;
+      width: 25px;
+      justify-content: space-around;
+      cursor: pointer;
+      .line {
+        height: 100%;
+        width: 2px;
+        background: #f1f1f1;
+      }
+    }
+    .circle {
+      height: 30px;
+      width: 30px;
+      border-radius: 35%;
+      border: 3px solid #f1f1f1;
+      cursor: pointer;
+    }
+  }
+  .back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    .line {
+      height: 13px;
+      width: 3px;
+      background: #f1f1f1;
+      &:first-child {
+        transform: rotate(45deg);
+        margin-bottom: -4px;
+      }
+      &:last-child {
+        transform: rotate(135deg);
+      }
+    }
+  }
+}

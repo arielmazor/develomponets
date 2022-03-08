@@ -1,0 +1,1049 @@
+Info 0    [15:01:04.290] Starting TS Server
+Info 1    [15:01:04.290] Version: 4.6.2
+Info 2    [15:01:04.290] Arguments: /usr/bin/node /usr/lib/node_modules/typescript/lib/tsserver.js --logFile /home/ocean/developments/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/11df92f8fb1b1275c0dde69c12c308c3/tscancellation*
+Info 3    [15:01:04.290] Platform: linux NodeVersion: 16 CaseSensitive: true
+Info 4    [15:01:04.290] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [15:01:04.302] Format host information updated
+Info 6    [15:01:04.307] Search path: /home/ocean/developments/navigator-redux-project/src/components/student-profile
+Info 7    [15:01:04.308] For info: /home/ocean/developments/navigator-redux-project/src/components/student-profile/student-profile.component.tsx :: Config file name: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 8    [15:01:04.308] Creating configuration project /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 9    [15:01:04.332] Config: /home/ocean/developments/navigator-redux-project/tsconfig.json : {
+ "rootNames": [
+  "/home/ocean/developments/navigator-redux-project/src/App.tsx",
+  "/home/ocean/developments/navigator-redux-project/src/app.routing.tsx",
+  "/home/ocean/developments/navigator-redux-project/src/declaration.d.ts",
+  "/home/ocean/developments/navigator-redux-project/src/index.tsx",
+  "/home/ocean/developments/navigator-redux-project/src/components/app/app.component.tsx",
+  "/home/ocean/developments/navigator-redux-project/src/components/menubar/menubar.component.tsx",
+  "/home/ocean/developments/navigator-redux-project/src/components/navbar/navbar.component.tsx",
+  "/home/ocean/developments/navigator-redux-project/src/components/student/student.component.tsx",
+  "/home/ocean/developments/navigator-redux-project/src/components/student-profile/student-profile.component.tsx",
+  "/home/ocean/developments/navigator-redux-project/src/components/student-tests/student-tests.component.tsx",
+  "/home/ocean/developments/navigator-redux-project/src/components/students-list/student-list.component.tsx",
+  "/home/ocean/developments/navigator-redux-project/src/components/students-list-item/student-list-item.component.tsx",
+  "/home/ocean/developments/navigator-redux-project/src/components/test-viewer/test.component.tsx",
+  "/home/ocean/developments/navigator-redux-project/src/providers/students-tests.provider.tsx",
+  "/home/ocean/developments/navigator-redux-project/src/providers/students.provider.tsx",
+  "/home/ocean/developments/navigator-redux-project/src/shared/components/loading/loading.tsx",
+  "/home/ocean/developments/navigator-redux-project/src/shared/components/loading-main/loading.tsx",
+  "/home/ocean/developments/navigator-redux-project/src/shared/components/svgs/trash.svg.tsx",
+  "/home/ocean/developments/navigator-redux-project/src/shared/interfaces/types.ts",
+  "/home/ocean/developments/navigator-redux-project/src/store/combinedReducer.ts",
+  "/home/ocean/developments/navigator-redux-project/src/store/store.ts",
+  "/home/ocean/developments/navigator-redux-project/src/store/student-tests/student-tests.action.ts",
+  "/home/ocean/developments/navigator-redux-project/src/store/student-tests/student-tests.reducer.ts",
+  "/home/ocean/developments/navigator-redux-project/src/store/student-tests/student-tests.types.ts",
+  "/home/ocean/developments/navigator-redux-project/src/store/students/students.actions.ts",
+  "/home/ocean/developments/navigator-redux-project/src/store/students/students.reducer.ts",
+  "/home/ocean/developments/navigator-redux-project/src/store/students/students.types.ts"
+ ],
+ "options": {
+  "target": 2,
+  "noUnusedLocals": false,
+  "lib": [
+   "lib.dom.d.ts",
+   "lib.dom.iterable.d.ts",
+   "lib.esnext.d.ts"
+  ],
+  "allowJs": true,
+  "skipLibCheck": true,
+  "esModuleInterop": true,
+  "allowSyntheticDefaultImports": true,
+  "strict": true,
+  "forceConsistentCasingInFileNames": true,
+  "noFallthroughCasesInSwitch": true,
+  "module": 99,
+  "moduleResolution": 2,
+  "resolveJsonModule": true,
+  "isolatedModules": true,
+  "noEmit": true,
+  "jsx": 4,
+  "baseUrl": "/home/ocean/developments/navigator-redux-project/src",
+  "strictNullChecks": false,
+  "configFilePath": "/home/ocean/developments/navigator-redux-project/tsconfig.json"
+ }
+}
+Info 10   [15:01:04.382] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 11   [15:01:07.401] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 3018.3444059999892ms
+Info 12   [15:01:07.401] Project '/home/ocean/developments/navigator-redux-project/tsconfig.json' (Configured)
+Info 13   [15:01:07.401] 	Files (198)
+
+Info 14   [15:01:07.401] -----------------------------------------------
+Info 15   [15:01:07.422] AutoImportProviderProject: found 5 root files in 5 dependencies in 19.042247999983374 ms
+Info 16   [15:01:07.423] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 17   [15:01:07.572] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 149.15262199996505ms
+Info 18   [15:01:07.572] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 19   [15:01:07.572] 	Files (124)
+
+Info 20   [15:01:07.572] -----------------------------------------------
+Info 21   [15:01:28.023] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 22   [15:01:28.048] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 2 structureChanged: false structureIsReused:: Completely Elapsed: 25.298973000026308ms
+Info 23   [15:01:28.048] Different program with same set of files
+Info 24   [15:01:28.227] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 25   [15:01:28.245] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 18.504751999978907ms
+Info 26   [15:01:28.245] Different program with same set of files
+Info 27   [15:02:14.550] Search path: /home/ocean/developments/navigator-redux-project/src/providers
+Info 28   [15:02:14.550] For info: /home/ocean/developments/navigator-redux-project/src/providers/students.provider.tsx :: Config file name: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 29   [15:05:33.389] Search path: /home/ocean/developments/navigator-redux-project/src/store/students
+Info 30   [15:05:33.389] For info: /home/ocean/developments/navigator-redux-project/src/store/students/students.reducer.ts :: Config file name: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 31   [15:05:57.849] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 32   [15:05:57.868] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 4 structureChanged: false structureIsReused:: Completely Elapsed: 19.04743200005032ms
+Info 33   [15:05:57.868] Different program with same set of files
+Info 34   [15:06:00.696] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 35   [15:06:00.733] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 5 structureChanged: false structureIsReused:: Completely Elapsed: 36.56022099999245ms
+Info 36   [15:06:00.733] Different program with same set of files
+Info 37   [15:06:01.318] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 38   [15:06:01.343] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 6 structureChanged: false structureIsReused:: Completely Elapsed: 24.23973200004548ms
+Info 39   [15:06:01.343] Different program with same set of files
+Info 40   [15:06:04.839] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 41   [15:06:04.851] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 7 structureChanged: false structureIsReused:: Completely Elapsed: 11.158542999997735ms
+Info 42   [15:06:04.851] Different program with same set of files
+Info 43   [15:06:05.209] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 44   [15:06:05.231] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 8 structureChanged: false structureIsReused:: Completely Elapsed: 22.240793999982998ms
+Info 45   [15:06:05.232] Different program with same set of files
+Info 46   [15:06:05.251] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 47   [15:06:05.263] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 9 structureChanged: false structureIsReused:: Completely Elapsed: 11.830507999984547ms
+Info 48   [15:06:05.263] Different program with same set of files
+Info 49   [15:06:05.845] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 50   [15:06:05.877] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 10 structureChanged: false structureIsReused:: Completely Elapsed: 31.89090799994301ms
+Info 51   [15:06:05.877] Different program with same set of files
+Info 52   [15:06:06.807] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 53   [15:06:06.821] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 11 structureChanged: false structureIsReused:: Completely Elapsed: 14.341927999979816ms
+Info 54   [15:06:06.821] Different program with same set of files
+Info 55   [15:06:07.170] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 56   [15:06:07.196] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 12 structureChanged: false structureIsReused:: Completely Elapsed: 25.919794999994338ms
+Info 57   [15:06:07.196] Different program with same set of files
+Info 58   [15:06:07.867] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 59   [15:06:07.878] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 13 structureChanged: false structureIsReused:: Completely Elapsed: 10.92424399999436ms
+Info 60   [15:06:07.878] Different program with same set of files
+Info 61   [15:06:08.493] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 62   [15:06:08.526] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 14 structureChanged: false structureIsReused:: Completely Elapsed: 31.785275000031106ms
+Info 63   [15:06:08.526] Different program with same set of files
+Info 64   [15:06:09.057] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 65   [15:06:09.082] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 15 structureChanged: false structureIsReused:: Completely Elapsed: 25.01230000006035ms
+Info 66   [15:06:09.083] Different program with same set of files
+Info 67   [15:06:10.138] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 68   [15:06:10.149] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 16 structureChanged: false structureIsReused:: Completely Elapsed: 10.34254800004419ms
+Info 69   [15:06:10.149] Different program with same set of files
+Info 70   [15:06:10.681] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 71   [15:06:10.705] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 17 structureChanged: false structureIsReused:: Completely Elapsed: 23.19655499991495ms
+Info 72   [15:06:10.705] Different program with same set of files
+Info 73   [15:06:11.508] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 74   [15:06:11.521] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 18 structureChanged: false structureIsReused:: Completely Elapsed: 11.840468000038527ms
+Info 75   [15:06:11.521] Different program with same set of files
+Info 76   [15:06:16.084] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 77   [15:06:16.096] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 19 structureChanged: false structureIsReused:: Completely Elapsed: 12.310515000019222ms
+Info 78   [15:06:16.096] Different program with same set of files
+Info 79   [15:06:16.212] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 80   [15:06:16.217] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 20 structureChanged: false structureIsReused:: Completely Elapsed: 4.785433999961242ms
+Info 81   [15:06:16.217] Different program with same set of files
+Info 82   [15:06:17.666] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 83   [15:06:17.681] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 21 structureChanged: false structureIsReused:: Completely Elapsed: 14.346377999987453ms
+Info 84   [15:06:17.681] Different program with same set of files
+Info 85   [15:06:18.973] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 86   [15:06:18.984] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 22 structureChanged: false structureIsReused:: Completely Elapsed: 10.64468000002671ms
+Info 87   [15:06:18.984] Different program with same set of files
+Info 88   [15:06:19.095] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 89   [15:06:19.104] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 23 structureChanged: false structureIsReused:: Completely Elapsed: 9.406506000086665ms
+Info 90   [15:06:19.105] Different program with same set of files
+Info 91   [15:06:19.291] getCompletionData: Get current token: 0.09392899996601045
+Info 92   [15:06:19.292] getCompletionData: Is inside comment: 0.38725900009740144
+Info 93   [15:06:19.292] getCompletionData: Get previous token: 0.22544800001196563
+Info 94   [15:06:19.294] getCompletionsAtPosition: isCompletionListBlocker: 0.8912319999653846
+Info 95   [15:06:19.312] getExportInfoMap: cache miss or empty; calculating new results
+Info 96   [15:06:19.439] forEachExternalModuleToImportFrom autoImportProvider: 40.191411999985576
+Info 97   [15:06:19.439] getExportInfoMap: done in 127.53282500000205 ms
+Info 98   [15:06:19.471] collectAutoImports: resolved 18 module specifiers, plus 125 ambient and -1294 from cache
+Info 99   [15:06:19.472] collectAutoImports: response is complete
+Info 100  [15:06:19.472] collectAutoImports: 32.169461000012234
+Info 101  [15:06:19.472] getCompletionData: Semantic work: 177.3758360000793
+Info 102  [15:06:19.497] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 25.237656000070274
+Info 103  [15:06:19.501] getCompletionData: Get current token: 0.014543999917805195
+Info 104  [15:06:19.501] getCompletionData: Is inside comment: 0.03255999996326864
+Info 105  [15:06:19.501] getCompletionData: Get previous token: 0.044977999990805984
+Info 106  [15:06:19.501] getCompletionsAtPosition: isCompletionListBlocker: 0.0028029999230057
+Info 107  [15:06:19.503] getExportInfoMap: cache hit
+Info 108  [15:06:19.523] collectAutoImports: resolved 0 module specifiers, plus 125 ambient and 145 from cache
+Info 109  [15:06:19.523] collectAutoImports: response is complete
+Info 110  [15:06:19.523] collectAutoImports: 19.78327699995134
+Info 111  [15:06:19.523] getCompletionData: Semantic work: 21.941586999921128
+Info 112  [15:06:19.544] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 20.2571520000929
+Info 113  [15:06:19.547] getCompletionData: Get current token: 0.014382999972440302
+Info 114  [15:06:19.547] getCompletionData: Is inside comment: 0.02648200001567602
+Info 115  [15:06:19.547] getCompletionData: Get previous token: 0.03740999998990446
+Info 116  [15:06:19.547] getCompletionsAtPosition: isCompletionListBlocker: 0.0023710000095888972
+Info 117  [15:06:19.550] getExportInfoMap: cache hit
+Info 118  [15:06:19.570] collectAutoImports: resolved 0 module specifiers, plus 125 ambient and 145 from cache
+Info 119  [15:06:19.570] collectAutoImports: response is complete
+Info 120  [15:06:19.570] collectAutoImports: 19.754582999972627
+Info 121  [15:06:19.570] getCompletionData: Semantic work: 22.408398000057787
+Info 122  [15:06:19.586] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 16.623754000058398
+Info 123  [15:06:19.589] getCompletionData: Get current token: 0.0151540000224486
+Info 124  [15:06:19.589] getCompletionData: Is inside comment: 0.02665100002195686
+Info 125  [15:06:19.589] getCompletionData: Get previous token: 0.038835000013932586
+Info 126  [15:06:19.589] getCompletionsAtPosition: isCompletionListBlocker: 0.002561999950557947
+Info 127  [15:06:19.592] getExportInfoMap: cache hit
+Info 128  [15:06:19.605] collectAutoImports: resolved 0 module specifiers, plus 125 ambient and 145 from cache
+Info 129  [15:06:19.605] collectAutoImports: response is complete
+Info 130  [15:06:19.605] collectAutoImports: 12.801266000024043
+Info 131  [15:06:19.605] getCompletionData: Semantic work: 15.53368400002364
+Info 132  [15:06:19.620] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 13.553129000007175
+Info 133  [15:06:19.630] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 134  [15:06:19.644] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 24 structureChanged: false structureIsReused:: Completely Elapsed: 14.566761999973096ms
+Info 135  [15:06:19.645] Different program with same set of files
+Info 136  [15:06:19.758] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 137  [15:06:19.766] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 25 structureChanged: false structureIsReused:: Completely Elapsed: 8.45363800006453ms
+Info 138  [15:06:19.766] Different program with same set of files
+Info 139  [15:06:19.886] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 140  [15:06:19.891] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 26 structureChanged: false structureIsReused:: Completely Elapsed: 5.400852999999188ms
+Info 141  [15:06:19.891] Different program with same set of files
+Info 142  [15:06:20.297] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 143  [15:06:20.314] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 27 structureChanged: false structureIsReused:: Completely Elapsed: 16.743579000001773ms
+Info 144  [15:06:20.314] Different program with same set of files
+Info 145  [15:06:20.315] getCompletionData: Get current token: 0.023647000081837177
+Info 146  [15:06:20.315] getCompletionData: Is inside comment: 0.04490300000179559
+Info 147  [15:06:20.315] getCompletionData: Get previous token: 0.059224999975413084
+Info 148  [15:06:20.316] getCompletionsAtPosition: isCompletionListBlocker: 0.004622000036761165
+Info 149  [15:06:20.322] getExportInfoMap: cache hit
+Info 150  [15:06:20.334] collectAutoImports: resolved 0 module specifiers, plus 6 ambient and 6 from cache
+Info 151  [15:06:20.334] collectAutoImports: response is complete
+Info 152  [15:06:20.334] collectAutoImports: 12.128318000002764
+Info 153  [15:06:20.334] getCompletionData: Semantic work: 18.42924500000663
+Info 154  [15:06:20.349] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 15.04196599998977
+Info 155  [15:06:21.205] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 156  [15:06:21.215] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 28 structureChanged: false structureIsReused:: Completely Elapsed: 10.610321999993175ms
+Info 157  [15:06:21.215] Different program with same set of files
+Info 158  [15:06:21.321] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 159  [15:06:21.327] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 29 structureChanged: false structureIsReused:: Completely Elapsed: 6.757601000019349ms
+Info 160  [15:06:21.327] Different program with same set of files
+Info 161  [15:06:21.631] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 162  [15:06:21.655] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 30 structureChanged: false structureIsReused:: Completely Elapsed: 24.460636999923736ms
+Info 163  [15:06:21.655] Different program with same set of files
+Info 164  [15:06:23.860] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 165  [15:06:23.870] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 31 structureChanged: false structureIsReused:: Completely Elapsed: 10.138534000026993ms
+Info 166  [15:06:23.870] Different program with same set of files
+Info 167  [15:06:24.681] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 168  [15:06:24.691] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 32 structureChanged: false structureIsReused:: Completely Elapsed: 9.99270299996715ms
+Info 169  [15:06:24.691] Different program with same set of files
+Info 170  [15:06:24.692] getCompletionData: Get current token: 0.02314300008583814
+Info 171  [15:06:24.692] getCompletionData: Is inside comment: 0.046980999992229044
+Info 172  [15:06:24.692] getCompletionData: Get previous token: 0.061708000022917986
+Info 173  [15:06:24.692] getCompletionsAtPosition: isCompletionListBlocker: 0.0031049998942762613
+Info 174  [15:06:24.696] getExportInfoMap: cache hit
+Info 175  [15:06:24.718] collectAutoImports: resolved 9 module specifiers, plus 88 ambient and -744 from cache
+Info 176  [15:06:24.719] collectAutoImports: response is complete
+Info 177  [15:06:24.719] collectAutoImports: 22.177783999941312
+Info 178  [15:06:24.719] getCompletionData: Semantic work: 26.445131000014953
+Info 179  [15:06:24.737] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 16.833968000020832
+Info 180  [15:06:24.751] getCompletionData: Get current token: 0.020921000046655536
+Info 181  [15:06:24.751] getCompletionData: Is inside comment: 0.047292000032030046
+Info 182  [15:06:24.751] getCompletionData: Get previous token: 0.07579200004693121
+Info 183  [15:06:24.751] getCompletionsAtPosition: isCompletionListBlocker: 0.0026180000277236104
+Info 184  [15:06:24.754] getExportInfoMap: cache hit
+Info 185  [15:06:24.766] collectAutoImports: resolved 0 module specifiers, plus 88 ambient and 132 from cache
+Info 186  [15:06:24.766] collectAutoImports: response is complete
+Info 187  [15:06:24.766] collectAutoImports: 12.089710999978706
+Info 188  [15:06:24.766] getCompletionData: Semantic work: 15.05533599993214
+Info 189  [15:06:24.778] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 11.478509000036865
+Info 190  [15:06:24.780] getCompletionData: Get current token: 0.016044999938458204
+Info 191  [15:06:24.780] getCompletionData: Is inside comment: 0.029733999981544912
+Info 192  [15:06:24.780] getCompletionData: Get previous token: 0.037555000046268106
+Info 193  [15:06:24.780] getCompletionsAtPosition: isCompletionListBlocker: 0.002439000061713159
+Info 194  [15:06:24.784] getExportInfoMap: cache hit
+Info 195  [15:06:24.797] collectAutoImports: resolved 0 module specifiers, plus 88 ambient and 132 from cache
+Info 196  [15:06:24.797] collectAutoImports: response is complete
+Info 197  [15:06:24.797] collectAutoImports: 13.103771000052802
+Info 198  [15:06:24.797] getCompletionData: Semantic work: 16.511117000016384
+Info 199  [15:06:24.807] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 8.281079000094905
+Info 200  [15:06:24.809] getCompletionData: Get current token: 0.015237999963574111
+Info 201  [15:06:24.809] getCompletionData: Is inside comment: 0.024770000018179417
+Info 202  [15:06:24.809] getCompletionData: Get previous token: 0.03530400001909584
+Info 203  [15:06:24.809] getCompletionsAtPosition: isCompletionListBlocker: 0.003498000092804432
+Info 204  [15:06:24.811] getExportInfoMap: cache hit
+Info 205  [15:06:24.821] collectAutoImports: resolved 0 module specifiers, plus 88 ambient and 132 from cache
+Info 206  [15:06:24.821] collectAutoImports: response is complete
+Info 207  [15:06:24.821] collectAutoImports: 9.54641900002025
+Info 208  [15:06:24.821] getCompletionData: Semantic work: 11.438422000035644
+Info 209  [15:06:24.829] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 8.211984999943525
+Info 210  [15:06:24.832] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 211  [15:06:24.840] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 33 structureChanged: false structureIsReused:: Completely Elapsed: 8.041878000018187ms
+Info 212  [15:06:24.840] Different program with same set of files
+Info 213  [15:06:25.383] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 214  [15:06:25.415] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 34 structureChanged: false structureIsReused:: Completely Elapsed: 31.96421200002078ms
+Info 215  [15:06:25.415] Different program with same set of files
+Info 216  [15:06:25.503] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 217  [15:06:25.508] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 35 structureChanged: false structureIsReused:: Completely Elapsed: 5.437915000016801ms
+Info 218  [15:06:25.508] Different program with same set of files
+Info 219  [15:06:25.788] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 220  [15:06:25.792] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 36 structureChanged: false structureIsReused:: Completely Elapsed: 3.926668000058271ms
+Info 221  [15:06:25.792] Different program with same set of files
+Info 222  [15:06:27.148] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 223  [15:06:27.159] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 37 structureChanged: false structureIsReused:: Completely Elapsed: 10.699186000041664ms
+Info 224  [15:06:27.159] Different program with same set of files
+Info 225  [15:06:29.679] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 226  [15:06:29.684] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 38 structureChanged: false structureIsReused:: Completely Elapsed: 4.56920899997931ms
+Info 227  [15:06:29.684] Different program with same set of files
+Info 228  [15:11:09.751] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 229  [15:11:09.795] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 39 structureChanged: false structureIsReused:: Completely Elapsed: 43.36889500007965ms
+Info 230  [15:11:09.795] Different program with same set of files
+Info 231  [15:16:04.508] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 232  [15:16:04.523] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 40 structureChanged: false structureIsReused:: Completely Elapsed: 14.888585000066087ms
+Info 233  [15:16:04.523] Different program with same set of files
+Info 234  [15:16:04.969] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 235  [15:16:05.011] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 41 structureChanged: false structureIsReused:: Completely Elapsed: 40.98038999992423ms
+Info 236  [15:16:05.011] Different program with same set of files
+Info 237  [15:16:05.550] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 238  [15:16:05.581] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 42 structureChanged: false structureIsReused:: Completely Elapsed: 31.0673830001615ms
+Info 239  [15:16:05.581] Different program with same set of files
+Info 240  [15:16:08.959] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 241  [15:16:08.996] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 43 structureChanged: false structureIsReused:: Completely Elapsed: 36.19598500011489ms
+Info 242  [15:16:08.996] Different program with same set of files
+Info 243  [15:16:11.466] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 244  [15:16:11.477] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 44 structureChanged: false structureIsReused:: Completely Elapsed: 10.58064500009641ms
+Info 245  [15:16:11.477] Different program with same set of files
+Info 246  [15:16:11.609] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 247  [15:16:11.618] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 45 structureChanged: false structureIsReused:: Completely Elapsed: 8.14991099992767ms
+Info 248  [15:16:11.618] Different program with same set of files
+Info 249  [15:16:14.064] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 250  [15:16:14.086] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 46 structureChanged: false structureIsReused:: Completely Elapsed: 22.344624999910593ms
+Info 251  [15:16:14.086] Different program with same set of files
+Info 252  [15:16:14.102] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 253  [15:16:14.111] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 47 structureChanged: false structureIsReused:: Completely Elapsed: 8.578351000091061ms
+Info 254  [15:16:14.111] Different program with same set of files
+Info 255  [15:16:15.198] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 256  [15:16:15.226] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 48 structureChanged: false structureIsReused:: Completely Elapsed: 28.004502000054345ms
+Info 257  [15:16:15.227] Different program with same set of files
+Info 258  [15:17:52.139] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 259  [15:17:52.150] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 49 structureChanged: false structureIsReused:: Completely Elapsed: 11.22035999991931ms
+Info 260  [15:17:52.150] Different program with same set of files
+Info 261  [15:17:52.974] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 262  [15:17:52.987] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 50 structureChanged: false structureIsReused:: Completely Elapsed: 13.42856499995105ms
+Info 263  [15:17:52.987] Different program with same set of files
+Info 264  [15:17:53.099] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 265  [15:17:53.104] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 51 structureChanged: false structureIsReused:: Completely Elapsed: 4.572106999810785ms
+Info 266  [15:17:53.104] Different program with same set of files
+Info 267  [15:17:56.373] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 268  [15:17:56.386] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 52 structureChanged: false structureIsReused:: Completely Elapsed: 12.370836999965832ms
+Info 269  [15:17:56.386] Different program with same set of files
+Info 270  [15:17:57.475] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 271  [15:17:57.487] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 53 structureChanged: false structureIsReused:: Completely Elapsed: 12.298779000062495ms
+Info 272  [15:17:57.487] Different program with same set of files
+Info 273  [15:18:01.768] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 274  [15:18:01.782] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 54 structureChanged: false structureIsReused:: Completely Elapsed: 13.540798000060022ms
+Info 275  [15:18:01.782] Different program with same set of files
+Info 276  [15:18:04.811] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 277  [15:18:04.822] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 55 structureChanged: false structureIsReused:: Completely Elapsed: 10.752556000137702ms
+Info 278  [15:18:04.822] Different program with same set of files
+Info 279  [15:18:08.765] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 280  [15:18:08.776] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 56 structureChanged: false structureIsReused:: Completely Elapsed: 10.486963999923319ms
+Info 281  [15:18:08.776] Different program with same set of files
+Info 282  [15:18:09.196] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 283  [15:18:09.231] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 57 structureChanged: false structureIsReused:: Completely Elapsed: 34.2646919998806ms
+Info 284  [15:18:09.231] Different program with same set of files
+Info 285  [15:18:09.340] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 286  [15:18:09.345] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 58 structureChanged: false structureIsReused:: Completely Elapsed: 4.122988000046462ms
+Info 287  [15:18:09.345] Different program with same set of files
+Info 288  [15:18:09.564] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 289  [15:18:09.569] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 59 structureChanged: false structureIsReused:: Completely Elapsed: 5.160480000078678ms
+Info 290  [15:18:09.569] Different program with same set of files
+Info 291  [15:18:09.985] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 292  [15:18:09.996] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 60 structureChanged: false structureIsReused:: Completely Elapsed: 9.807362999999896ms
+Info 293  [15:18:09.996] Different program with same set of files
+Info 294  [15:18:10.422] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 295  [15:18:10.441] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 61 structureChanged: false structureIsReused:: Completely Elapsed: 18.49847700004466ms
+Info 296  [15:18:10.441] Different program with same set of files
+Info 297  [15:18:10.889] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 298  [15:18:10.911] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 62 structureChanged: false structureIsReused:: Completely Elapsed: 21.622617000015453ms
+Info 299  [15:18:10.911] Different program with same set of files
+Info 300  [15:18:13.934] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 301  [15:18:13.952] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 63 structureChanged: false structureIsReused:: Completely Elapsed: 17.683553999988362ms
+Info 302  [15:18:13.952] Different program with same set of files
+Info 303  [15:18:17.799] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 304  [15:18:17.809] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 64 structureChanged: false structureIsReused:: Completely Elapsed: 9.392075000097975ms
+Info 305  [15:18:17.809] Different program with same set of files
+Info 306  [15:18:22.408] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 307  [15:18:22.422] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 65 structureChanged: false structureIsReused:: Completely Elapsed: 14.430864000227302ms
+Info 308  [15:18:22.422] Different program with same set of files
+Info 309  [15:18:23.375] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 310  [15:18:23.410] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 66 structureChanged: false structureIsReused:: Completely Elapsed: 34.6627809999045ms
+Info 311  [15:18:23.410] Different program with same set of files
+Info 312  [15:18:30.701] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 313  [15:18:30.716] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 67 structureChanged: false structureIsReused:: Completely Elapsed: 14.929272000212222ms
+Info 314  [15:18:30.716] Different program with same set of files
+Info 315  [15:18:30.828] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 316  [15:18:30.836] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 68 structureChanged: false structureIsReused:: Completely Elapsed: 7.5215510001871735ms
+Info 317  [15:18:30.836] Different program with same set of files
+Info 318  [15:18:37.806] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 319  [15:18:37.816] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 69 structureChanged: false structureIsReused:: Completely Elapsed: 10.035528999986127ms
+Info 320  [15:18:37.816] Different program with same set of files
+Info 321  [15:18:38.363] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 322  [15:18:38.380] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 70 structureChanged: false structureIsReused:: Completely Elapsed: 16.64650999987498ms
+Info 323  [15:18:38.380] Different program with same set of files
+Info 324  [15:18:45.150] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 325  [15:18:45.160] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 71 structureChanged: false structureIsReused:: Completely Elapsed: 9.575146000133827ms
+Info 326  [15:18:45.160] Different program with same set of files
+Info 327  [15:18:48.897] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 328  [15:18:48.907] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 72 structureChanged: false structureIsReused:: Completely Elapsed: 10.06008299998939ms
+Info 329  [15:18:48.907] Different program with same set of files
+Info 330  [15:18:50.179] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 331  [15:18:50.211] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 73 structureChanged: false structureIsReused:: Completely Elapsed: 31.401972000021487ms
+Info 332  [15:18:50.211] Different program with same set of files
+Info 333  [15:18:52.484] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 334  [15:18:52.516] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 74 structureChanged: false structureIsReused:: Completely Elapsed: 31.823501999955624ms
+Info 335  [15:18:52.516] Different program with same set of files
+Info 336  [15:18:55.766] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 337  [15:18:55.799] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 75 structureChanged: false structureIsReused:: Completely Elapsed: 32.55936999991536ms
+Info 338  [15:18:55.799] Different program with same set of files
+Info 339  [15:18:55.806] getCompletionData: Get current token: 0.03403099998831749
+Info 340  [15:18:55.806] getCompletionData: Is inside comment: 0.0951910000294447
+Info 341  [15:18:55.806] getCompletionData: Get previous token: 0.13472199998795986
+Info 342  [15:18:55.808] getCompletionsAtPosition: isCompletionListBlocker: 0.7894980001728982
+Info 343  [15:18:55.818] getExportInfoMap: cache miss or empty; calculating new results
+Info 344  [15:18:55.902] forEachExternalModuleToImportFrom autoImportProvider: 12.149111000122502
+Info 345  [15:18:55.902] getExportInfoMap: done in 83.9606869998388 ms
+Info 346  [15:18:55.913] collectAutoImports: resolved 3 module specifiers, plus 4 ambient and -167 from cache
+Info 347  [15:18:55.913] collectAutoImports: response is complete
+Info 348  [15:18:55.913] collectAutoImports: 11.453413000097498
+Info 349  [15:18:55.913] getCompletionData: Semantic work: 105.47627199999988
+Info 350  [15:18:55.928] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 12.975045999977738
+Info 351  [15:18:55.940] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 352  [15:18:55.948] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 76 structureChanged: false structureIsReused:: Completely Elapsed: 7.9013130001258105ms
+Info 353  [15:18:55.948] Different program with same set of files
+Info 354  [15:18:55.948] getCompletionData: Get current token: 0.007359999930486083
+Info 355  [15:18:55.948] getCompletionData: Is inside comment: 0.022484000073745847
+Info 356  [15:18:55.948] getCompletionData: Get previous token: 0.033429000061005354
+Info 357  [15:18:55.949] getCompletionsAtPosition: isCompletionListBlocker: 0.011108000064268708
+Info 358  [15:18:55.952] getExportInfoMap: cache hit
+Info 359  [15:18:55.957] collectAutoImports: resolved 0 module specifiers, plus 2 ambient and 86 from cache
+Info 360  [15:18:55.957] collectAutoImports: response is complete
+Info 361  [15:18:55.957] collectAutoImports: 4.77100700000301
+Info 362  [15:18:55.957] getCompletionData: Semantic work: 8.214500000001863
+Info 363  [15:18:55.970] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 13.24842799990438
+Info 364  [15:18:55.973] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 365  [15:18:55.979] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 77 structureChanged: false structureIsReused:: Completely Elapsed: 5.85858799982816ms
+Info 366  [15:18:55.979] Different program with same set of files
+Info 367  [15:18:55.979] getCompletionData: Get current token: 0.00774399982765317
+Info 368  [15:18:55.979] getCompletionData: Is inside comment: 0.022803999949246645
+Info 369  [15:18:55.979] getCompletionData: Get previous token: 0.036943000042811036
+Info 370  [15:18:55.979] getCompletionsAtPosition: isCompletionListBlocker: 0.011821999913081527
+Info 371  [15:18:55.982] getExportInfoMap: cache hit
+Info 372  [15:18:55.986] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 13 from cache
+Info 373  [15:18:55.986] collectAutoImports: response is complete
+Info 374  [15:18:55.986] collectAutoImports: 3.7273639999330044
+Info 375  [15:18:55.986] getCompletionData: Semantic work: 6.345344000030309
+Info 376  [15:18:55.994] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 7.0473869999405
+Info 377  [15:18:57.642] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 378  [15:18:57.656] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 78 structureChanged: false structureIsReused:: Completely Elapsed: 13.09164399979636ms
+Info 379  [15:18:57.656] Different program with same set of files
+Info 380  [15:18:57.757] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 381  [15:18:57.761] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 79 structureChanged: false structureIsReused:: Completely Elapsed: 4.171434000134468ms
+Info 382  [15:18:57.761] Different program with same set of files
+Info 383  [15:18:58.024] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 384  [15:18:58.042] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 80 structureChanged: false structureIsReused:: Completely Elapsed: 17.327978000044823ms
+Info 385  [15:18:58.042] Different program with same set of files
+Info 386  [15:19:00.703] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 387  [15:19:00.715] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 81 structureChanged: false structureIsReused:: Completely Elapsed: 11.463790999958292ms
+Info 388  [15:19:00.715] Different program with same set of files
+Info 389  [15:19:06.654] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 390  [15:19:06.664] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 82 structureChanged: false structureIsReused:: Completely Elapsed: 9.167366999899969ms
+Info 391  [15:19:06.664] Different program with same set of files
+Info 392  [15:19:06.780] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 393  [15:19:06.784] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 83 structureChanged: false structureIsReused:: Completely Elapsed: 3.921650000149384ms
+Info 394  [15:19:06.784] Different program with same set of files
+Info 395  [15:21:26.901] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 396  [15:21:26.915] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 84 structureChanged: false structureIsReused:: Completely Elapsed: 13.498894000193104ms
+Info 397  [15:21:26.915] Different program with same set of files
+Info 398  [15:21:27.987] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 399  [15:21:28.012] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 85 structureChanged: false structureIsReused:: Completely Elapsed: 24.388546000001952ms
+Info 400  [15:21:28.012] Different program with same set of files
+Info 401  [15:21:35.568] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 402  [15:21:35.578] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 86 structureChanged: false structureIsReused:: Completely Elapsed: 9.76109699998051ms
+Info 403  [15:21:35.578] Different program with same set of files
+Info 404  [15:21:52.210] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 405  [15:21:52.242] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 87 structureChanged: false structureIsReused:: Completely Elapsed: 31.148323999950662ms
+Info 406  [15:21:52.242] Different program with same set of files
+Info 407  [15:21:52.875] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 408  [15:21:52.885] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 88 structureChanged: false structureIsReused:: Completely Elapsed: 10.476085999980569ms
+Info 409  [15:21:52.885] Different program with same set of files
+Info 410  [15:21:53.950] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 411  [15:21:53.964] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 89 structureChanged: false structureIsReused:: Completely Elapsed: 14.249896000139415ms
+Info 412  [15:21:53.964] Different program with same set of files
+Info 413  [15:21:59.643] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 414  [15:21:59.668] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 90 structureChanged: false structureIsReused:: Completely Elapsed: 24.98522499995306ms
+Info 415  [15:21:59.668] Different program with same set of files
+Info 416  [15:21:59.678] getCompletionData: Get current token: 0.05558099993504584
+Info 417  [15:21:59.678] getCompletionData: Is inside comment: 0.014657999854534864
+Info 418  [15:21:59.678] getCompletionData: Get previous token: 0.217077000066638
+Info 419  [15:21:59.680] getCompletionsAtPosition: isCompletionListBlocker: 0.9583529999945313
+Info 420  [15:21:59.693] getExportInfoMap: cache hit
+Info 421  [15:21:59.701] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 422  [15:21:59.701] collectAutoImports: response is complete
+Info 423  [15:21:59.701] collectAutoImports: 7.554829000029713
+Info 424  [15:21:59.701] getCompletionData: Semantic work: 21.080071000149474
+Info 425  [15:21:59.712] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 10.335025999927893
+Info 426  [15:22:00.261] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 427  [15:22:00.280] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 91 structureChanged: false structureIsReused:: Completely Elapsed: 17.989811999956146ms
+Info 428  [15:22:00.280] Different program with same set of files
+Info 429  [15:22:00.281] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 430  [15:22:00.297] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 92 structureChanged: false structureIsReused:: Completely Elapsed: 15.920987999998033ms
+Info 431  [15:22:00.297] Different program with same set of files
+Info 432  [15:22:00.777] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 433  [15:22:00.790] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 93 structureChanged: false structureIsReused:: Completely Elapsed: 12.440490999957547ms
+Info 434  [15:22:00.790] Different program with same set of files
+Info 435  [15:22:01.799] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 436  [15:22:01.812] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 94 structureChanged: false structureIsReused:: Completely Elapsed: 11.948487000074238ms
+Info 437  [15:22:01.812] Different program with same set of files
+Info 438  [15:22:02.376] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 439  [15:22:02.386] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 95 structureChanged: false structureIsReused:: Completely Elapsed: 9.058450000127777ms
+Info 440  [15:22:02.386] Different program with same set of files
+Info 441  [15:22:02.495] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 442  [15:22:02.500] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 96 structureChanged: false structureIsReused:: Completely Elapsed: 5.329476000042632ms
+Info 443  [15:22:02.500] Different program with same set of files
+Info 444  [15:22:03.315] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 445  [15:22:03.326] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 97 structureChanged: false structureIsReused:: Completely Elapsed: 10.333622999954969ms
+Info 446  [15:22:03.326] Different program with same set of files
+Info 447  [15:22:03.800] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 448  [15:22:03.819] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 98 structureChanged: false structureIsReused:: Completely Elapsed: 19.023170999949798ms
+Info 449  [15:22:03.819] Different program with same set of files
+Info 450  [15:22:04.486] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 451  [15:22:04.498] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 99 structureChanged: false structureIsReused:: Completely Elapsed: 11.316162999952212ms
+Info 452  [15:22:04.498] Different program with same set of files
+Info 453  [15:22:05.516] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 454  [15:22:05.526] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 100 structureChanged: false structureIsReused:: Completely Elapsed: 9.340337000088766ms
+Info 455  [15:22:05.526] Different program with same set of files
+Info 456  [15:22:09.748] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 457  [15:22:09.778] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 101 structureChanged: false structureIsReused:: Completely Elapsed: 29.874056000029668ms
+Info 458  [15:22:09.779] Different program with same set of files
+Info 459  [15:22:10.030] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 460  [15:22:10.064] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 102 structureChanged: false structureIsReused:: Completely Elapsed: 33.791654999833554ms
+Info 461  [15:22:10.064] Different program with same set of files
+Info 462  [15:22:11.540] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 463  [15:22:11.551] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 103 structureChanged: false structureIsReused:: Completely Elapsed: 11.154920999892056ms
+Info 464  [15:22:11.551] Different program with same set of files
+Info 465  [15:22:13.076] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 466  [15:22:13.085] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 104 structureChanged: false structureIsReused:: Completely Elapsed: 8.887195999966934ms
+Info 467  [15:22:13.085] Different program with same set of files
+Info 468  [15:22:13.133] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 469  [15:22:13.138] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 105 structureChanged: false structureIsReused:: Completely Elapsed: 4.681259999983013ms
+Info 470  [15:22:13.138] Different program with same set of files
+Info 471  [15:22:13.497] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 472  [15:22:13.515] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 106 structureChanged: false structureIsReused:: Completely Elapsed: 18.477017000084743ms
+Info 473  [15:22:13.515] Different program with same set of files
+Info 474  [15:22:13.518] getCompletionData: Get current token: 0.037791999988257885
+Info 475  [15:22:13.518] getCompletionData: Is inside comment: 0.11658199992962182
+Info 476  [15:22:13.518] getCompletionData: Get previous token: 0.17819499992765486
+Info 477  [15:22:13.519] getCompletionsAtPosition: isCompletionListBlocker: 0.2613850000780076
+Info 478  [15:22:13.529] getExportInfoMap: cache hit
+Info 479  [15:22:13.546] collectAutoImports: resolved 0 module specifiers, plus 4 ambient and 96 from cache
+Info 480  [15:22:13.546] collectAutoImports: response is complete
+Info 481  [15:22:13.546] collectAutoImports: 17.075570000102744
+Info 482  [15:22:13.546] getCompletionData: Semantic work: 26.996669000014663
+Info 483  [15:22:13.557] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 9.210421999916434
+Info 484  [15:22:13.669] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 485  [15:22:13.673] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 107 structureChanged: false structureIsReused:: Completely Elapsed: 3.999490999849513ms
+Info 486  [15:22:13.673] Different program with same set of files
+Info 487  [15:22:13.673] getCompletionData: Get current token: 0.008228000020608306
+Info 488  [15:22:13.673] getCompletionData: Is inside comment: 0.023501000134274364
+Info 489  [15:22:13.673] getCompletionData: Get previous token: 0.037838000105693936
+Info 490  [15:22:13.673] getCompletionsAtPosition: isCompletionListBlocker: 0.009461999870836735
+Info 491  [15:22:13.677] getExportInfoMap: cache hit
+Info 492  [15:22:13.682] collectAutoImports: resolved 0 module specifiers, plus 2 ambient and 86 from cache
+Info 493  [15:22:13.682] collectAutoImports: response is complete
+Info 494  [15:22:13.682] collectAutoImports: 5.413009000010788
+Info 495  [15:22:13.682] getCompletionData: Semantic work: 8.926479999907315
+Info 496  [15:22:13.693] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 9.61738199996762
+Info 497  [15:22:13.768] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 498  [15:22:13.772] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 108 structureChanged: false structureIsReused:: Completely Elapsed: 4.21593499998562ms
+Info 499  [15:22:13.772] Different program with same set of files
+Info 500  [15:22:13.772] getCompletionData: Get current token: 0.008313999976962805
+Info 501  [15:22:13.772] getCompletionData: Is inside comment: 0.022723000030964613
+Info 502  [15:22:13.772] getCompletionData: Get previous token: 0.03648500004783273
+Info 503  [15:22:13.773] getCompletionsAtPosition: isCompletionListBlocker: 0.009357000002637506
+Info 504  [15:22:13.775] getExportInfoMap: cache hit
+Info 505  [15:22:13.779] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 13 from cache
+Info 506  [15:22:13.779] collectAutoImports: response is complete
+Info 507  [15:22:13.779] collectAutoImports: 3.6961260000243783
+Info 508  [15:22:13.779] getCompletionData: Semantic work: 6.5639499998651445
+Info 509  [15:22:13.786] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6.347248000092804
+Info 510  [15:22:16.583] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 511  [15:22:16.600] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 109 structureChanged: false structureIsReused:: Completely Elapsed: 16.671870999969542ms
+Info 512  [15:22:16.600] Different program with same set of files
+Info 513  [15:22:16.951] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 514  [15:22:16.972] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 110 structureChanged: false structureIsReused:: Completely Elapsed: 20.68508500000462ms
+Info 515  [15:22:16.972] Different program with same set of files
+Info 516  [15:22:17.731] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 517  [15:22:17.740] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 111 structureChanged: false structureIsReused:: Completely Elapsed: 9.347429000074044ms
+Info 518  [15:22:17.740] Different program with same set of files
+Info 519  [15:22:17.741] getCompletionData: Get current token: 0.012449000030755997
+Info 520  [15:22:17.741] getCompletionData: Is inside comment: 0.033838000148534775
+Info 521  [15:22:17.741] getCompletionData: Get previous token: 0.053728999802842736
+Info 522  [15:22:17.741] getCompletionsAtPosition: isCompletionListBlocker: 0.017539999913424253
+Info 523  [15:22:17.747] getExportInfoMap: cache hit
+Info 524  [15:22:17.771] collectAutoImports: resolved 5 module specifiers, plus 59 ambient and -448 from cache
+Info 525  [15:22:17.771] collectAutoImports: response is complete
+Info 526  [15:22:17.771] collectAutoImports: 24.543635999783874
+Info 527  [15:22:17.771] getCompletionData: Semantic work: 30.241408000001684
+Info 528  [15:22:17.786] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 13.000063000014052
+Info 529  [15:22:18.429] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 530  [15:22:18.439] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 112 structureChanged: false structureIsReused:: Completely Elapsed: 10.174724000040442ms
+Info 531  [15:22:18.439] Different program with same set of files
+Info 532  [15:22:19.303] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 533  [15:22:19.313] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 113 structureChanged: false structureIsReused:: Completely Elapsed: 9.865290000103414ms
+Info 534  [15:22:19.313] Different program with same set of files
+Info 535  [15:22:19.314] getCompletionData: Get current token: 0.012612000107765198
+Info 536  [15:22:19.314] getCompletionData: Is inside comment: 0.03640299988910556
+Info 537  [15:22:19.314] getCompletionData: Get previous token: 0.05749199981801212
+Info 538  [15:22:19.314] getCompletionsAtPosition: isCompletionListBlocker: 0.014526000013574958
+Info 539  [15:22:19.319] getExportInfoMap: cache hit
+Info 540  [15:22:19.337] collectAutoImports: resolved 0 module specifiers, plus 37 ambient and 118 from cache
+Info 541  [15:22:19.337] collectAutoImports: response is complete
+Info 542  [15:22:19.337] collectAutoImports: 17.886909999884665
+Info 543  [15:22:19.337] getCompletionData: Semantic work: 23.5121550001204
+Info 544  [15:22:19.349] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 10.178347000153735
+Info 545  [15:22:19.431] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 546  [15:22:19.437] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 114 structureChanged: false structureIsReused:: Completely Elapsed: 5.4138799998909235ms
+Info 547  [15:22:19.437] Different program with same set of files
+Info 548  [15:22:19.437] getCompletionData: Get current token: 0.00812499993480742
+Info 549  [15:22:19.438] getCompletionData: Is inside comment: 0.023511999985203147
+Info 550  [15:22:19.438] getCompletionData: Get previous token: 0.03773400001227856
+Info 551  [15:22:19.438] getCompletionsAtPosition: isCompletionListBlocker: 0.010255000088363886
+Info 552  [15:22:19.440] getExportInfoMap: cache hit
+Info 553  [15:22:19.449] collectAutoImports: resolved 0 module specifiers, plus 18 ambient and 48 from cache
+Info 554  [15:22:19.449] collectAutoImports: response is complete
+Info 555  [15:22:19.449] collectAutoImports: 8.7408010000363
+Info 556  [15:22:19.449] getCompletionData: Semantic work: 11.152595000108704
+Info 557  [15:22:19.464] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 13.241742999991402
+Info 558  [15:22:19.557] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 559  [15:22:19.561] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 115 structureChanged: false structureIsReused:: Completely Elapsed: 4.201984999934211ms
+Info 560  [15:22:19.562] Different program with same set of files
+Info 561  [15:22:19.562] getCompletionData: Get current token: 0.007833000039681792
+Info 562  [15:22:19.562] getCompletionData: Is inside comment: 0.02278400002978742
+Info 563  [15:22:19.562] getCompletionData: Get previous token: 0.03633300005458295
+Info 564  [15:22:19.562] getCompletionsAtPosition: isCompletionListBlocker: 0.009826000081375241
+Info 565  [15:22:19.564] getExportInfoMap: cache hit
+Info 566  [15:22:19.570] collectAutoImports: resolved 0 module specifiers, plus 4 ambient and 34 from cache
+Info 567  [15:22:19.570] collectAutoImports: response is complete
+Info 568  [15:22:19.570] collectAutoImports: 5.519153000088409
+Info 569  [15:22:19.570] getCompletionData: Semantic work: 7.83934299997054
+Info 570  [15:22:19.583] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 12.411652999930084
+Info 571  [15:22:19.591] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 572  [15:22:19.601] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 116 structureChanged: false structureIsReused:: Completely Elapsed: 9.418478999985382ms
+Info 573  [15:22:19.601] Different program with same set of files
+Info 574  [15:22:19.601] getCompletionData: Get current token: 0.012878999812528491
+Info 575  [15:22:19.601] getCompletionData: Is inside comment: 0.03671399992890656
+Info 576  [15:22:19.601] getCompletionData: Get previous token: 0.060400999849662185
+Info 577  [15:22:19.601] getCompletionsAtPosition: isCompletionListBlocker: 0.020972000202164054
+Info 578  [15:22:19.605] getExportInfoMap: cache hit
+Info 579  [15:22:19.612] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 17 from cache
+Info 580  [15:22:19.612] collectAutoImports: response is complete
+Info 581  [15:22:19.612] collectAutoImports: 7.376234999857843
+Info 582  [15:22:19.612] getCompletionData: Semantic work: 10.98448900016956
+Info 583  [15:22:19.626] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 12.114487000042573
+Info 584  [15:22:20.530] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 585  [15:22:20.540] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 117 structureChanged: false structureIsReused:: Completely Elapsed: 9.554659999907017ms
+Info 586  [15:22:20.540] Different program with same set of files
+Info 587  [15:22:20.541] getCompletionData: Get current token: 0.07923400006256998
+Info 588  [15:22:20.541] getCompletionData: Is inside comment: 0.015829999931156635
+Info 589  [15:22:20.541] getCompletionData: Get previous token: 0.13773599988780916
+Info 590  [15:22:20.541] getCompletionsAtPosition: isCompletionListBlocker: 0.01909899991005659
+Info 591  [15:22:20.547] getCompletionData: Semantic work: 4.998432999942452
+Info 592  [15:22:20.551] getCompletionData: Get current token: 0.0382880000397563
+Info 593  [15:22:20.551] getCompletionData: Is inside comment: 0.018604000099003315
+Info 594  [15:22:20.552] getCompletionData: Get previous token: 0.10725699993781745
+Info 595  [15:22:20.552] getCompletionsAtPosition: isCompletionListBlocker: 0.015450000064447522
+Info 596  [15:22:20.558] getCompletionData: Semantic work: 5.773849999997765
+Info 597  [15:22:24.442] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 598  [15:22:24.451] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 118 structureChanged: false structureIsReused:: Completely Elapsed: 8.606666000094265ms
+Info 599  [15:22:24.451] Different program with same set of files
+Info 600  [15:23:49.841] Search path: /home/ocean/developments/navigator-redux-project/src/components/student
+Info 601  [15:23:49.842] For info: /home/ocean/developments/navigator-redux-project/src/components/student/student.component.tsx :: Config file name: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 602  [15:24:15.053] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 603  [15:24:15.069] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 119 structureChanged: false structureIsReused:: Completely Elapsed: 15.762653999961913ms
+Info 604  [15:24:15.069] Different program with same set of files
+Info 605  [15:24:20.193] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 606  [15:24:20.203] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 120 structureChanged: false structureIsReused:: Completely Elapsed: 10.047626999905333ms
+Info 607  [15:24:20.203] Different program with same set of files
+Info 608  [15:24:32.562] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 609  [15:24:32.572] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 121 structureChanged: false structureIsReused:: Completely Elapsed: 9.772417000029236ms
+Info 610  [15:24:32.572] Different program with same set of files
+Info 611  [15:24:33.167] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 612  [15:24:33.188] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 122 structureChanged: false structureIsReused:: Completely Elapsed: 20.652553000021726ms
+Info 613  [15:24:33.188] Different program with same set of files
+Info 614  [15:24:33.335] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 615  [15:24:33.340] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 123 structureChanged: false structureIsReused:: Completely Elapsed: 5.579708999954164ms
+Info 616  [15:24:33.340] Different program with same set of files
+Info 617  [15:24:34.436] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 618  [15:24:34.451] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 124 structureChanged: false structureIsReused:: Completely Elapsed: 14.714935000054538ms
+Info 619  [15:24:34.451] Different program with same set of files
+Info 620  [15:24:34.493] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 621  [15:24:34.497] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 125 structureChanged: false structureIsReused:: Completely Elapsed: 4.353131999960169ms
+Info 622  [15:24:34.497] Different program with same set of files
+Info 623  [15:24:34.765] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 624  [15:24:34.783] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 126 structureChanged: false structureIsReused:: Completely Elapsed: 18.07260699989274ms
+Info 625  [15:24:34.783] Different program with same set of files
+Info 626  [15:24:34.792] getCompletionData: Get current token: 0.0894909999333322
+Info 627  [15:24:34.792] getCompletionData: Is inside comment: 0.13544800016097724
+Info 628  [15:24:34.792] getCompletionData: Get previous token: 0.19588999985717237
+Info 629  [15:24:34.795] getCompletionsAtPosition: isCompletionListBlocker: 1.1234339999500662
+Info 630  [15:24:34.807] getExportInfoMap: cache miss or empty; calculating new results
+Info 631  [15:24:34.877] forEachExternalModuleToImportFrom autoImportProvider: 15.564300999976695
+Info 632  [15:24:34.878] getExportInfoMap: done in 70.2134720000904 ms
+Info 633  [15:24:34.887] collectAutoImports: resolved 2 module specifiers, plus 6 ambient and -3 from cache
+Info 634  [15:24:34.887] collectAutoImports: response is complete
+Info 635  [15:24:34.887] collectAutoImports: 8.888317999895662
+Info 636  [15:24:34.887] getCompletionData: Semantic work: 92.22188100009225
+Info 637  [15:24:34.897] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 10.040938999969512
+Info 638  [15:24:34.932] getCompletionData: Get current token: 0.006108999950811267
+Info 639  [15:24:34.932] getCompletionData: Is inside comment: 0.01748899999074638
+Info 640  [15:24:34.932] getCompletionData: Get previous token: 0.03450599987991154
+Info 641  [15:24:34.932] getCompletionsAtPosition: isCompletionListBlocker: 0.012017000000923872
+Info 642  [15:24:34.935] getExportInfoMap: cache hit
+Info 643  [15:24:34.939] collectAutoImports: resolved 0 module specifiers, plus 6 ambient and 6 from cache
+Info 644  [15:24:34.939] collectAutoImports: response is complete
+Info 645  [15:24:34.939] collectAutoImports: 4.2244769998360425
+Info 646  [15:24:34.939] getCompletionData: Semantic work: 7.148221000097692
+Info 647  [15:24:34.951] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 10.306405999930575
+Info 648  [15:24:34.954] getCompletionData: Get current token: 0.011165000032633543
+Info 649  [15:24:34.954] getCompletionData: Is inside comment: 0.025563000002875924
+Info 650  [15:24:34.954] getCompletionData: Get previous token: 0.039825999876484275
+Info 651  [15:24:34.954] getCompletionsAtPosition: isCompletionListBlocker: 0.014518000185489655
+Info 652  [15:24:34.959] getExportInfoMap: cache hit
+Info 653  [15:24:34.964] collectAutoImports: resolved 0 module specifiers, plus 6 ambient and 6 from cache
+Info 654  [15:24:34.964] collectAutoImports: response is complete
+Info 655  [15:24:34.964] collectAutoImports: 4.810531000141054
+Info 656  [15:24:34.964] getCompletionData: Semantic work: 10.070160000119358
+Info 657  [15:24:34.971] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 7.318620000034571
+Info 658  [15:24:34.973] getCompletionData: Get current token: 0.005749999778345227
+Info 659  [15:24:34.973] getCompletionData: Is inside comment: 0.017109999898821115
+Info 660  [15:24:34.973] getCompletionData: Get previous token: 0.02353499992750585
+Info 661  [15:24:34.973] getCompletionsAtPosition: isCompletionListBlocker: 0.010373000055551529
+Info 662  [15:24:34.977] getExportInfoMap: cache hit
+Info 663  [15:24:34.981] collectAutoImports: resolved 0 module specifiers, plus 6 ambient and 6 from cache
+Info 664  [15:24:34.981] collectAutoImports: response is complete
+Info 665  [15:24:34.981] collectAutoImports: 4.091576999984682
+Info 666  [15:24:34.981] getCompletionData: Semantic work: 7.997308999998495
+Info 667  [15:24:34.990] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 7.1878140000626445
+Info 668  [15:24:34.992] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 669  [15:24:35.000] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 127 structureChanged: false structureIsReused:: Completely Elapsed: 7.409610999980941ms
+Info 670  [15:24:35.000] Different program with same set of files
+Info 671  [15:24:35.036] getCompletionData: Get current token: 0.00826999987475574
+Info 672  [15:24:35.036] getCompletionData: Is inside comment: 0.02609100006520748
+Info 673  [15:24:35.036] getCompletionData: Get previous token: 0.04348100000061095
+Info 674  [15:24:35.036] getCompletionsAtPosition: isCompletionListBlocker: 0.01399499992839992
+Info 675  [15:24:35.038] getExportInfoMap: cache hit
+Info 676  [15:24:35.042] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 677  [15:24:35.042] collectAutoImports: response is complete
+Info 678  [15:24:35.042] collectAutoImports: 3.5374209999572486
+Info 679  [15:24:35.042] getCompletionData: Semantic work: 6.038602999877185
+Info 680  [15:24:35.051] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 8.790785999968648
+Info 681  [15:24:35.139] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 682  [15:24:35.143] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 128 structureChanged: false structureIsReused:: Completely Elapsed: 3.9378279999364167ms
+Info 683  [15:24:35.143] Different program with same set of files
+Info 684  [15:24:36.192] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 685  [15:24:36.203] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 129 structureChanged: false structureIsReused:: Completely Elapsed: 10.16436200006865ms
+Info 686  [15:24:36.203] Different program with same set of files
+Info 687  [15:24:36.203] getCompletionData: Get current token: 0.013485000003129244
+Info 688  [15:24:36.204] getCompletionData: Is inside comment: 0.028983000200241804
+Info 689  [15:24:36.204] getCompletionData: Get previous token: 0.04778899997472763
+Info 690  [15:24:36.204] getCompletionsAtPosition: isCompletionListBlocker: 0.01485200016759336
+Info 691  [15:24:36.208] getExportInfoMap: cache hit
+Info 692  [15:24:36.213] collectAutoImports: resolved 0 module specifiers, plus 2 ambient and 2 from cache
+Info 693  [15:24:36.213] collectAutoImports: response is complete
+Info 694  [15:24:36.213] collectAutoImports: 5.677872000029311
+Info 695  [15:24:36.213] getCompletionData: Semantic work: 9.597298000007868
+Info 696  [15:24:36.226] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 10.548869000049308
+Info 697  [15:24:36.264] getCompletionData: Get current token: 0.013385000173002481
+Info 698  [15:24:36.264] getCompletionData: Is inside comment: 0.03576500015333295
+Info 699  [15:24:36.264] getCompletionData: Get previous token: 0.043182999826967716
+Info 700  [15:24:36.264] getCompletionsAtPosition: isCompletionListBlocker: 0.018481000093743205
+Info 701  [15:24:36.268] getExportInfoMap: cache hit
+Info 702  [15:24:36.272] collectAutoImports: resolved 0 module specifiers, plus 2 ambient and 2 from cache
+Info 703  [15:24:36.272] collectAutoImports: response is complete
+Info 704  [15:24:36.272] collectAutoImports: 4.091466000070795
+Info 705  [15:24:36.272] getCompletionData: Semantic work: 7.465534999966621
+Info 706  [15:24:36.279] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6.8678550000768155
+Info 707  [15:24:36.283] getCompletionData: Get current token: 0.011622000019997358
+Info 708  [15:24:36.283] getCompletionData: Is inside comment: 0.028113000094890594
+Info 709  [15:24:36.283] getCompletionData: Get previous token: 0.0444690000731498
+Info 710  [15:24:36.283] getCompletionsAtPosition: isCompletionListBlocker: 0.019669000059366226
+Info 711  [15:24:36.287] getExportInfoMap: cache hit
+Info 712  [15:24:36.293] collectAutoImports: resolved 0 module specifiers, plus 2 ambient and 2 from cache
+Info 713  [15:24:36.293] collectAutoImports: response is complete
+Info 714  [15:24:36.293] collectAutoImports: 5.626191999996081
+Info 715  [15:24:36.293] getCompletionData: Semantic work: 9.4630279999692
+Info 716  [15:24:36.299] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6.064324000151828
+Info 717  [15:24:36.301] getCompletionData: Get current token: 0.007527999812737107
+Info 718  [15:24:36.301] getCompletionData: Is inside comment: 0.018226000014692545
+Info 719  [15:24:36.301] getCompletionData: Get previous token: 0.023542999988421798
+Info 720  [15:24:36.301] getCompletionsAtPosition: isCompletionListBlocker: 0.012488999869674444
+Info 721  [15:24:36.303] getExportInfoMap: cache hit
+Info 722  [15:24:36.307] collectAutoImports: resolved 0 module specifiers, plus 2 ambient and 2 from cache
+Info 723  [15:24:36.307] collectAutoImports: response is complete
+Info 724  [15:24:36.307] collectAutoImports: 3.8841389999724925
+Info 725  [15:24:36.307] getCompletionData: Semantic work: 6.279384000226855
+Info 726  [15:24:36.314] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6.246477999957278
+Info 727  [15:24:36.316] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 728  [15:24:36.322] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 130 structureChanged: false structureIsReused:: Completely Elapsed: 6.1600550001021475ms
+Info 729  [15:24:36.322] Different program with same set of files
+Info 730  [15:24:36.597] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 731  [15:24:36.617] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 131 structureChanged: false structureIsReused:: Completely Elapsed: 19.308146000141278ms
+Info 732  [15:24:36.617] Different program with same set of files
+Info 733  [15:24:36.619] getCompletionData: Get current token: 0.03760400018654764
+Info 734  [15:24:36.619] getCompletionData: Is inside comment: 0.08214799989946187
+Info 735  [15:24:36.619] getCompletionData: Get previous token: 0.1278550000861287
+Info 736  [15:24:36.620] getCompletionsAtPosition: isCompletionListBlocker: 0.04294699989259243
+Info 737  [15:24:36.631] getExportInfoMap: cache hit
+Info 738  [15:24:36.737] collectAutoImports: resolved 90 module specifiers, plus 930 ambient and -77412 from cache
+Info 739  [15:24:36.737] collectAutoImports: response is complete
+Info 740  [15:24:36.737] collectAutoImports: 106.64824799983762
+Info 741  [15:24:36.737] getCompletionData: Semantic work: 117.72948900004849
+Info 742  [15:24:36.772] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 34.24743099999614
+Info 743  [15:24:39.576] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 744  [15:24:39.586] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 132 structureChanged: false structureIsReused:: Completely Elapsed: 9.960689999861643ms
+Info 745  [15:24:39.586] Different program with same set of files
+Info 746  [15:24:39.587] getCompletionData: Get current token: 0.012613000115379691
+Info 747  [15:24:39.587] getCompletionData: Is inside comment: 0.024360999930649996
+Info 748  [15:24:39.587] getCompletionData: Get previous token: 0.03892199997790158
+Info 749  [15:24:39.587] getCompletionsAtPosition: isCompletionListBlocker: 0.013861000072211027
+Info 750  [15:24:39.591] getExportInfoMap: cache hit
+Info 751  [15:24:39.601] collectAutoImports: resolved 0 module specifiers, plus 1 ambient and 2 from cache
+Info 752  [15:24:39.602] collectAutoImports: response is complete
+Info 753  [15:24:39.602] collectAutoImports: 10.471231000032276
+Info 754  [15:24:39.602] getCompletionData: Semantic work: 14.53281300002709
+Info 755  [15:24:39.615] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 11.026639000046998
+Info 756  [15:24:39.765] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 757  [15:24:39.783] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 133 structureChanged: false structureIsReused:: Completely Elapsed: 17.604734000051394ms
+Info 758  [15:24:39.783] Different program with same set of files
+Info 759  [15:24:39.784] getCompletionData: Get current token: 0.031143000116571784
+Info 760  [15:24:39.784] getCompletionData: Is inside comment: 0.08654199982993305
+Info 761  [15:24:39.785] getCompletionData: Get previous token: 0.13050400000065565
+Info 762  [15:24:39.785] getCompletionsAtPosition: isCompletionListBlocker: 0.04310399992391467
+Info 763  [15:24:39.800] getExportInfoMap: cache hit
+Info 764  [15:24:39.807] collectAutoImports: resolved 0 module specifiers, plus 2 ambient and 2 from cache
+Info 765  [15:24:39.807] collectAutoImports: response is complete
+Info 766  [15:24:39.807] collectAutoImports: 7.280686999903992
+Info 767  [15:24:39.807] getCompletionData: Semantic work: 22.213478000136092
+Info 768  [15:24:39.816] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 8.530162000097334
+Info 769  [15:24:40.788] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 770  [15:24:40.794] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 134 structureChanged: false structureIsReused:: Completely Elapsed: 5.664038999937475ms
+Info 771  [15:24:40.794] Different program with same set of files
+Info 772  [15:24:40.795] getCompletionData: Get current token: 0.03521100012585521
+Info 773  [15:24:40.795] getCompletionData: Is inside comment: 0.015568000031635165
+Info 774  [15:24:40.795] getCompletionData: Get previous token: 0.06349299987778068
+Info 775  [15:24:40.796] getCompletionsAtPosition: isCompletionListBlocker: 0.021053000120446086
+Info 776  [15:24:40.799] getCompletionData: Semantic work: 3.5770779999438673
+Info 777  [15:24:40.802] getCompletionData: Get current token: 0.021635999903082848
+Info 778  [15:24:40.802] getCompletionData: Is inside comment: 0.008195000002160668
+Info 779  [15:24:40.802] getCompletionData: Get previous token: 0.04358300007879734
+Info 780  [15:24:40.802] getCompletionsAtPosition: isCompletionListBlocker: 0.018571000080555677
+Info 781  [15:24:40.807] getCompletionData: Semantic work: 4.78347699996084
+Info 782  [15:24:41.547] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 783  [15:24:41.556] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 135 structureChanged: false structureIsReused:: Completely Elapsed: 9.08398300013505ms
+Info 784  [15:24:41.557] Different program with same set of files
+Info 785  [15:24:42.770] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 786  [15:24:42.776] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 136 structureChanged: false structureIsReused:: Completely Elapsed: 6.846640999894589ms
+Info 787  [15:24:42.777] Different program with same set of files
+Info 788  [15:26:02.212] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 789  [15:26:02.238] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 137 structureChanged: false structureIsReused:: Completely Elapsed: 25.81880100001581ms
+Info 790  [15:26:02.238] Different program with same set of files
+Info 791  [15:26:03.177] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 792  [15:26:03.207] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 138 structureChanged: false structureIsReused:: Completely Elapsed: 29.570756000000983ms
+Info 793  [15:26:03.207] Different program with same set of files
+Info 794  [15:26:03.603] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 795  [15:26:03.619] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 139 structureChanged: false structureIsReused:: Completely Elapsed: 15.403952999971807ms
+Info 796  [15:26:03.619] Different program with same set of files
+Info 797  [15:26:04.224] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 798  [15:26:04.237] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 140 structureChanged: false structureIsReused:: Completely Elapsed: 12.843389000045136ms
+Info 799  [15:26:04.237] Different program with same set of files
+Info 800  [15:26:05.094] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 801  [15:26:05.104] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 141 structureChanged: false structureIsReused:: Completely Elapsed: 10.06508699990809ms
+Info 802  [15:26:05.104] Different program with same set of files
+Info 803  [15:26:05.107] getCompletionData: Get current token: 0.014303999952971935
+Info 804  [15:26:05.107] getCompletionData: Is inside comment: 0.03149299998767674
+Info 805  [15:26:05.107] getCompletionData: Get previous token: 0.03883900004439056
+Info 806  [15:26:05.107] getCompletionsAtPosition: isCompletionListBlocker: 0.30162899987772107
+Info 807  [15:26:05.115] getExportInfoMap: cache hit
+Info 808  [15:26:05.127] collectAutoImports: resolved 0 module specifiers, plus 9 ambient and 120 from cache
+Info 809  [15:26:05.127] collectAutoImports: response is complete
+Info 810  [15:26:05.127] collectAutoImports: 12.36496500018984
+Info 811  [15:26:05.127] getCompletionData: Semantic work: 19.691389000043273
+Info 812  [15:26:05.141] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 13.657876999815926
+Info 813  [15:26:05.251] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 814  [15:26:05.255] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 142 structureChanged: false structureIsReused:: Completely Elapsed: 3.9029840000439435ms
+Info 815  [15:26:05.255] Different program with same set of files
+Info 816  [15:26:05.961] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 817  [15:26:05.974] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 143 structureChanged: false structureIsReused:: Completely Elapsed: 12.749537999974564ms
+Info 818  [15:26:05.974] Different program with same set of files
+Info 819  [15:26:06.017] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 820  [15:26:06.022] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 144 structureChanged: false structureIsReused:: Completely Elapsed: 4.931770999915898ms
+Info 821  [15:26:06.022] Different program with same set of files
+Info 822  [15:26:06.279] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 823  [15:26:06.284] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 145 structureChanged: false structureIsReused:: Completely Elapsed: 4.038385999854654ms
+Info 824  [15:26:06.284] Different program with same set of files
+Info 825  [15:26:06.533] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 826  [15:26:06.552] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 146 structureChanged: false structureIsReused:: Completely Elapsed: 18.474267000099644ms
+Info 827  [15:26:06.552] Different program with same set of files
+Info 828  [15:26:07.512] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 829  [15:26:07.519] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 147 structureChanged: false structureIsReused:: Completely Elapsed: 7.209350000135601ms
+Info 830  [15:26:07.519] Different program with same set of files
+Info 831  [15:26:07.650] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 832  [15:26:07.663] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 148 structureChanged: false structureIsReused:: Completely Elapsed: 12.919511999934912ms
+Info 833  [15:26:07.663] Different program with same set of files
+Info 834  [15:26:10.220] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 835  [15:26:10.229] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 149 structureChanged: false structureIsReused:: Completely Elapsed: 8.133279000176117ms
+Info 836  [15:26:10.229] Different program with same set of files
+Info 837  [15:26:10.591] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 838  [15:26:10.596] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 150 structureChanged: false structureIsReused:: Completely Elapsed: 4.501943999901414ms
+Info 839  [15:26:10.596] Different program with same set of files
+Info 840  [15:26:10.960] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 841  [15:26:10.964] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 151 structureChanged: false structureIsReused:: Completely Elapsed: 3.993935000151396ms
+Info 842  [15:26:10.964] Different program with same set of files
+Info 843  [15:26:12.505] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 844  [15:26:12.515] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 152 structureChanged: false structureIsReused:: Completely Elapsed: 9.553534999955446ms
+Info 845  [15:26:12.515] Different program with same set of files
+Info 846  [15:26:14.996] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 847  [15:26:15.006] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 153 structureChanged: false structureIsReused:: Completely Elapsed: 9.3488659998402ms
+Info 848  [15:26:15.006] Different program with same set of files
+Info 849  [15:26:16.154] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 850  [15:26:16.164] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 154 structureChanged: false structureIsReused:: Completely Elapsed: 9.656773000024259ms
+Info 851  [15:26:16.164] Different program with same set of files
+Info 852  [15:26:55.459] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 853  [15:26:55.495] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 155 structureChanged: false structureIsReused:: Completely Elapsed: 35.752471999963745ms
+Info 854  [15:26:55.495] Different program with same set of files
+Info 855  [15:26:56.905] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 856  [15:26:56.915] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 156 structureChanged: false structureIsReused:: Completely Elapsed: 10.089784000068903ms
+Info 857  [15:26:56.915] Different program with same set of files
+Info 858  [15:26:57.761] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 859  [15:26:57.770] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 157 structureChanged: false structureIsReused:: Completely Elapsed: 9.676861000014469ms
+Info 860  [15:26:57.770] Different program with same set of files
+Info 861  [15:27:00.642] Format host information updated
+Info 862  [15:27:00.681] Format host information updated
+Info 863  [15:27:00.882] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 864  [15:27:00.912] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 158 structureChanged: false structureIsReused:: Completely Elapsed: 30.277501000091434ms
+Info 865  [15:27:00.912] Different program with same set of files
+Info 866  [15:27:03.782] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 867  [15:27:03.815] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 159 structureChanged: false structureIsReused:: Completely Elapsed: 32.641135999932885ms
+Info 868  [15:27:03.815] Different program with same set of files
+Info 869  [15:27:04.676] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 870  [15:27:04.686] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 160 structureChanged: false structureIsReused:: Completely Elapsed: 9.735367000102997ms
+Info 871  [15:27:04.686] Different program with same set of files
+Info 872  [15:27:05.342] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 873  [15:27:05.352] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 161 structureChanged: false structureIsReused:: Completely Elapsed: 9.397279999917373ms
+Info 874  [15:27:05.352] Different program with same set of files
+Info 875  [15:27:06.097] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 876  [15:27:06.110] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 162 structureChanged: false structureIsReused:: Completely Elapsed: 12.666400000220165ms
+Info 877  [15:27:06.111] Different program with same set of files
+Info 878  [15:27:06.900] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 879  [15:27:06.910] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 163 structureChanged: false structureIsReused:: Completely Elapsed: 9.131902000168338ms
+Info 880  [15:27:06.910] Different program with same set of files
+Info 881  [15:27:07.691] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 882  [15:27:07.700] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 164 structureChanged: false structureIsReused:: Completely Elapsed: 9.101095999823883ms
+Info 883  [15:27:07.700] Different program with same set of files
+Info 884  [15:27:13.792] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 885  [15:27:13.797] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 165 structureChanged: false structureIsReused:: Completely Elapsed: 5.156631999881938ms
+Info 886  [15:27:13.797] Different program with same set of files
+Info 887  [15:27:14.345] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 888  [15:27:14.350] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 166 structureChanged: false structureIsReused:: Completely Elapsed: 4.471940000075847ms
+Info 889  [15:27:14.350] Different program with same set of files
+Info 890  [15:27:15.354] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 891  [15:27:15.359] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 167 structureChanged: false structureIsReused:: Completely Elapsed: 5.120384000008926ms
+Info 892  [15:27:15.359] Different program with same set of files
+Info 893  [15:27:16.501] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 894  [15:27:16.512] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 168 structureChanged: false structureIsReused:: Completely Elapsed: 10.361622999887913ms
+Info 895  [15:27:16.512] Different program with same set of files
+Info 896  [15:27:16.604] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 897  [15:27:16.616] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 169 structureChanged: false structureIsReused:: Completely Elapsed: 11.679932000115514ms
+Info 898  [15:27:16.616] Different program with same set of files
+Info 899  [15:27:16.747] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 900  [15:27:16.769] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 170 structureChanged: false structureIsReused:: Completely Elapsed: 21.36266199988313ms
+Info 901  [15:27:16.769] Different program with same set of files
+Info 902  [15:27:16.886] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 903  [15:27:16.899] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 171 structureChanged: false structureIsReused:: Completely Elapsed: 13.136514999903738ms
+Info 904  [15:27:16.899] Different program with same set of files
+Info 905  [15:27:17.157] getCompletionData: Get current token: 0.018518999917432666
+Info 906  [15:27:17.157] getCompletionData: Is inside comment: 0.004938000114634633
+Info 907  [15:27:17.157] getCompletionData: Get previous token: 0.048974999925121665
+Info 908  [15:27:17.158] getCompletionsAtPosition: isCompletionListBlocker: 0.217022999888286
+Info 909  [15:27:17.163] getExportInfoMap: cache hit
+Info 910  [15:27:17.176] collectAutoImports: resolved 0 module specifiers, plus 2 ambient and 32 from cache
+Info 911  [15:27:17.176] collectAutoImports: response is complete
+Info 912  [15:27:17.176] collectAutoImports: 12.776213000062853
+Info 913  [15:27:17.176] getCompletionData: Semantic work: 18.699991999892518
+Info 914  [15:27:17.188] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 10.96862699999474
+Info 915  [15:27:17.193] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 916  [15:27:17.199] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 172 structureChanged: false structureIsReused:: Completely Elapsed: 5.280416999943554ms
+Info 917  [15:27:17.199] Different program with same set of files
+Info 918  [15:27:17.199] getCompletionData: Get current token: 0.011285000015050173
+Info 919  [15:27:17.199] getCompletionData: Is inside comment: 0.002699999837204814
+Info 920  [15:27:17.199] getCompletionData: Get previous token: 0.04974499996751547
+Info 921  [15:27:17.199] getCompletionsAtPosition: isCompletionListBlocker: 0.008930000010877848
+Info 922  [15:27:17.203] getExportInfoMap: cache hit
+Info 923  [15:27:17.207] collectAutoImports: resolved 0 module specifiers, plus 1 ambient and 27 from cache
+Info 924  [15:27:17.207] collectAutoImports: response is complete
+Info 925  [15:27:17.207] collectAutoImports: 3.9606550000607967
+Info 926  [15:27:17.207] getCompletionData: Semantic work: 7.377337000099942
+Info 927  [15:27:17.226] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 16.988612999906763
+Info 928  [15:27:17.233] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 929  [15:27:17.243] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 173 structureChanged: false structureIsReused:: Completely Elapsed: 9.640140999807045ms
+Info 930  [15:27:17.243] Different program with same set of files
+Info 931  [15:27:17.244] getCompletionData: Get current token: 0.022594999987632036
+Info 932  [15:27:17.244] getCompletionData: Is inside comment: 0.004504999844357371
+Info 933  [15:27:17.244] getCompletionData: Get previous token: 0.09259000001475215
+Info 934  [15:27:17.244] getCompletionsAtPosition: isCompletionListBlocker: 0.004437000025063753
+Info 935  [15:27:17.250] getExportInfoMap: cache hit
+Info 936  [15:27:17.256] collectAutoImports: resolved 0 module specifiers, plus 1 ambient and 13 from cache
+Info 937  [15:27:17.256] collectAutoImports: response is complete
+Info 938  [15:27:17.256] collectAutoImports: 5.594163000117987
+Info 939  [15:27:17.256] getCompletionData: Semantic work: 11.207022000104189
+Info 940  [15:27:17.265] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 7.285966000054032
+Info 941  [15:27:59.472] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 942  [15:27:59.485] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 174 structureChanged: false structureIsReused:: Completely Elapsed: 13.481345999985933ms
+Info 943  [15:27:59.485] Different program with same set of files
+Info 944  [15:28:00.443] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 945  [15:28:00.454] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 175 structureChanged: false structureIsReused:: Completely Elapsed: 11.090655999956653ms
+Info 946  [15:28:00.454] Different program with same set of files
+Info 947  [15:28:01.155] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 948  [15:28:01.164] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 176 structureChanged: false structureIsReused:: Completely Elapsed: 9.315922999987379ms
+Info 949  [15:28:01.164] Different program with same set of files
+Info 950  [15:28:09.154] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 951  [15:28:09.165] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 177 structureChanged: false structureIsReused:: Completely Elapsed: 10.226550000021234ms
+Info 952  [15:28:09.165] Different program with same set of files
+Info 953  [15:32:09.162] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 954  [15:32:09.186] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 178 structureChanged: false structureIsReused:: Completely Elapsed: 23.31439800001681ms
+Info 955  [15:32:09.186] Different program with same set of files
+Info 956  [15:32:54.508] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 957  [15:32:54.525] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 179 structureChanged: false structureIsReused:: Completely Elapsed: 16.554396000225097ms
+Info 958  [15:32:54.525] Different program with same set of files
+Info 959  [15:32:55.258] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 960  [15:32:55.275] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 180 structureChanged: false structureIsReused:: Completely Elapsed: 16.58297900017351ms
+Info 961  [15:32:55.275] Different program with same set of files
+Info 962  [15:32:55.902] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 963  [15:32:55.911] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 181 structureChanged: false structureIsReused:: Completely Elapsed: 8.501001000404358ms
+Info 964  [15:32:55.911] Different program with same set of files
+Info 965  [15:46:16.424] Search path: /home/ocean/developments/navigator-redux-project/src
+Info 966  [15:46:16.424] For info: /home/ocean/developments/navigator-redux-project/src/App.tsx :: Config file name: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 967  [15:46:16.424] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 968  [15:46:16.433] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 182 structureChanged: false structureIsReused:: Completely Elapsed: 8.654050000011921ms
+Info 969  [15:46:16.433] Different program with same set of files
+Info 970  [15:48:42.416] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 971  [15:48:42.431] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 183 structureChanged: false structureIsReused:: Completely Elapsed: 13.973877999931574ms
+Info 972  [15:48:42.431] Different program with same set of files
+Info 973  [15:48:43.452] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 974  [15:48:43.465] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 184 structureChanged: false structureIsReused:: Completely Elapsed: 12.576592000201344ms
+Info 975  [15:48:43.465] Different program with same set of files
+Info 976  [15:53:12.076] Search path: /home/ocean/developments/navigator-redux-project/src/providers
+Info 977  [15:53:12.076] For info: /home/ocean/developments/navigator-redux-project/src/providers/students.provider.tsx :: Config file name: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 978  [15:53:33.523] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 979  [15:53:33.540] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 185 structureChanged: false structureIsReused:: Completely Elapsed: 16.8966669999063ms
+Info 980  [15:53:33.540] Different program with same set of files
+Info 981  [15:53:34.165] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 982  [15:53:34.178] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 186 structureChanged: false structureIsReused:: Completely Elapsed: 12.453231000341475ms
+Info 983  [15:53:34.178] Different program with same set of files
+Info 984  [15:53:36.046] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 985  [15:53:36.057] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 187 structureChanged: false structureIsReused:: Completely Elapsed: 11.227849999908358ms
+Info 986  [15:53:36.057] Different program with same set of files
+Info 987  [15:54:13.876] Search path: /home/ocean/developments/navigator-redux-project/src/components/student-profile
+Info 988  [15:54:13.876] For info: /home/ocean/developments/navigator-redux-project/src/components/student-profile/student-profile.component.tsx :: Config file name: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 989  [16:38:29.499] Starting updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json
+Info 990  [16:38:29.542] Finishing updateGraphWorker: Project: /home/ocean/developments/navigator-redux-project/tsconfig.json Version: 188 structureChanged: false structureIsReused:: Completely Elapsed: 39.63593699969351ms
+Info 991  [16:38:29.542] Different program with same set of files

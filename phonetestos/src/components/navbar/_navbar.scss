@@ -1,0 +1,26 @@
+nav {
+  height: 60px;
+  width: 100%;
+  background: #191919;
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+  align-items: center;
+  .add-side {
+    margin-top: -40px;
+    padding: 5px;
+    background: white;
+    border-radius: 50%;
+    margin-left: 12px;
+    .btn {
+      cursor: pointer;
+      height: 60px;
+      width: 60px;
+      background: #db4c3f;
+      border-radius: 50%;
+      color: #f1f1f1;
+      font-size: 32px;
+      font-weight: bold;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.test-outlet {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: #faf7f7;
+  .back-btn {
+    height: 50px;
+    width: 92px;
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    border-radius: 10px;
+    border: 1px solid #d1d1d1;
+    font-size: 21px;
+    color: #333;
+    cursor: pointer;
+    top: 20px;
+    text-decoration: none;
+  }
+  .wrap {
+    padding: 178px 70px;
+  }
+  .grade {
+    font-size: 140px;
+  }
+  .name {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+  }
+  .date {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+  .date-name-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
